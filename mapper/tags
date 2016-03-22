@@ -1,0 +1,767 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AR	Makefile	/^AR = ar$/;"	m
+ARFLAGS	Makefile	/^ARFLAGS = rvs$/;"	m
+BISQUE	libstreetmap/src/easygl_constants.h	/^    BISQUE, \/\/ A weird colour, not unlike the "peach" colour of pencil crayons, but closer to "Blanched Almond" and "Moccasin"$/;"	e	enum:color_types
+BLACK	libstreetmap/src/easygl_constants.h	/^    WHITE = 0, BLACK, DARKGREY, LIGHTGREY,$/;"	e	enum:color_types
+BLUE	libstreetmap/src/easygl_constants.h	/^    RED, ORANGE, YELLOW, GREEN, CYAN, BLUE, PURPLE, \/\/ standard ranbow colours.$/;"	e	enum:color_types
+BUFSIZE	libstreetmap/src/graphics.cpp	279;"	d	file:
+BUILD_DIR	Makefile	/^BUILD_DIR = build$/;"	m
+BUTTON_POLY	libstreetmap/src/graphics.cpp	/^    BUTTON_POLY,$/;"	e	enum:__anon8	file:
+BUTTON_SEPARATOR	libstreetmap/src/graphics.cpp	/^    BUTTON_SEPARATOR$/;"	e	enum:__anon8	file:
+BUTTON_TEXT	libstreetmap/src/graphics.cpp	/^    BUTTON_TEXT = 0,$/;"	e	enum:__anon8	file:
+BUTTON_TEXT_LEN	libstreetmap/src/graphics.cpp	278;"	d	file:
+Backward	libstreetsdatabase/src/IntersectionGraph.cpp	/^typedef enum { Bidirectional, Forward, Backward } StreetDirection;$/;"	e	enum:__anon3	file:
+Bidirectional	libstreetsdatabase/src/IntersectionGraph.cpp	/^typedef enum { Bidirectional, Forward, Backward } StreetDirection;$/;"	e	enum:__anon3	file:
+CFLAGS	Makefile	/^CFLAGS = $(DEP_FLAGS) $(WARN_FLAGS) $(DEBUG_RELEASE_FLAGS) $(INCLUDE_FLAGS) --std=c++11$/;"	m
+CONF	Makefile	/^CONF=debug$/;"	m
+CORAL	libstreetmap/src/easygl_constants.h	/^    CORAL, \/\/ A burnt pinkish-orange perhaps?$/;"	e	enum:color_types
+CXX	Makefile	/^CXX = g++$/;"	m
+CYAN	libstreetmap/src/easygl_constants.h	/^    RED, ORANGE, YELLOW, GREEN, CYAN, BLUE, PURPLE, \/\/ standard ranbow colours.$/;"	e	enum:color_types
+ConstFn	libstreetsdatabase/src/OSMDatabase.h	/^	ConstFn(const Result& val_) : val(val_){}$/;"	f	class:ConstFn
+ConstFn	libstreetsdatabase/src/OSMDatabase.h	/^template<class Result>class ConstFn {$/;"	c
+CostType	libstreetsdatabase/src/IntersectionGraph.h	/^		typedef double CostType;$/;"	t	class:IntersectionGraph::distance_heuristic
+DARKGREEN	libstreetmap/src/easygl_constants.h	/^    PINK, LIGHTPINK, DARKGREEN, MAGENTA, \/\/ some other colours$/;"	e	enum:color_types
+DARKGREY	libstreetmap/src/easygl_constants.h	/^    WHITE = 0, BLACK, DARKGREY, LIGHTGREY,$/;"	e	enum:color_types
+DARKKHAKI	libstreetmap/src/easygl_constants.h	/^    DARKKHAKI, \/\/ darker khaki$/;"	e	enum:color_types
+DARKSLATEBLUE	libstreetmap/src/easygl_constants.h	/^    DARKSLATEBLUE, \/\/ A deep blue, almost purple$/;"	e	enum:color_types
+DASHED	libstreetmap/src/easygl_constants.h	/^    SOLID, DASHED$/;"	e	enum:line_types
+DEBUG_FLAGS	Makefile	/^DEBUG_FLAGS = -g -O0 -D_GLIBCXX_DEBUG$/;"	m
+DEBUG_RELEASE_FLAGS	Makefile	/^DEBUG_RELEASE_FLAGS := $(DEBUG_FLAGS)$/;"	m
+DEBUG_RELEASE_FLAGS	Makefile	/^DEBUG_RELEASE_FLAGS := $(RELEASE_FLAGS)$/;"	m
+DEGTORAD	libstreetmap/src/graphics.cpp	339;"	d	file:
+DEG_TO_RAD	libstreetmap/src/m1.h	13;"	d
+DEP	Makefile	/^DEP = $(EXE_OBJ:.o=.d) $(LIB_STREETMAP_OBJ:.o=.d) $(LIB_STREETSDATABASE_OBJ:.o=.d) $(LIB_STREETMAP_TEST_OBJ:.o=.d) $(OSM2BIN_OBJ:.o=.d)$/;"	m
+DEP_FLAGS	Makefile	/^DEP_FLAGS = -MMD -MP$/;"	m
+DRAW_NORMAL	libstreetmap/src/graphics.h	/^    DRAW_NORMAL = 0, DRAW_XOR$/;"	e	enum:e_draw_mode
+DRAW_XOR	libstreetmap/src/graphics.h	/^    DRAW_NORMAL = 0, DRAW_XOR$/;"	e	enum:e_draw_mode
+EARTH_RADIUS_IN_METERS	libstreetmap/src/m1.h	12;"	d
+EASYGL_CONSTANTS_H	libstreetmap/src/easygl_constants.h	2;"	d
+EXE	Makefile	/^EXE=mapper$/;"	m
+EXE_OBJ	Makefile	/^EXE_OBJ=$(patsubst %.cpp, $(BUILD_DIR)\/$(CONF)\/%.o,$(wildcard $(EXE_SRC_DIR)\/*.cpp))$/;"	m
+EXE_SRC_DIR	Makefile	/^EXE_SRC_DIR = main\/src$/;"	m
+Exclude	libstreetsdatabase/src/IntersectionGraph.cpp	/^typedef enum { Include, Exclude } HighwayAction;$/;"	e	enum:__anon2	file:
+FIREBRICK	libstreetmap/src/easygl_constants.h	/^    FIREBRICK, \/\/ dark red$/;"	e	enum:color_types
+FONT_CACHE_SIZE_FOR_ROTATED	libstreetmap/src/graphics.cpp	274;"	d	file:
+FONT_CACHE_SIZE_FOR_ZEROS	libstreetmap/src/graphics.cpp	273;"	d	file:
+FontCache	libstreetmap/src/graphics.cpp	/^    FontCache()$/;"	f	class:FontCache
+FontCache	libstreetmap/src/graphics.cpp	/^class FontCache {$/;"	c	file:
+Forward	libstreetsdatabase/src/IntersectionGraph.cpp	/^typedef enum { Bidirectional, Forward, Backward } StreetDirection;$/;"	e	enum:__anon3	file:
+G	libstreetsdatabase/src/IntersectionGraph.h	/^	Graph G;$/;"	m	class:IntersectionGraph
+GRAPHICS_FLAGS	Makefile	/^GRAPHICS_FLAGS = $(shell pkg-config --cflags freetype2) # evaluates to the correct include flags for the freetype headers$/;"	m
+GRAPHICS_H	libstreetmap/src/graphics.h	2;"	d
+GRAPHICS_LIBS	Makefile	/^GRAPHICS_LIBS = -lX11 -lXft -lfontconfig$/;"	m
+GREEN	libstreetmap/src/easygl_constants.h	/^    RED, ORANGE, YELLOW, GREEN, CYAN, BLUE, PURPLE, \/\/ standard ranbow colours.$/;"	e	enum:color_types
+Graph	libstreetsdatabase/src/IntersectionGraph.h	/^			vecS> Graph;$/;"	t	class:IntersectionGraph
+HighwayAction	libstreetsdatabase/src/IntersectionGraph.cpp	/^typedef enum { Include, Exclude } HighwayAction;$/;"	t	typeref:enum:__anon2	file:
+IDEqual	libstreetsdatabase/src/OSMEntity.h	/^	static bool IDEqual(const OSMEntity& a,const OSMEntity& b){ return a.id==b.id; }$/;"	f	class:OSMEntity
+IDOrder	libstreetsdatabase/src/OSMEntity.h	/^	static bool IDOrder(const OSMEntity& a,const OSMEntity& b){ return a.id<b.id; }$/;"	f	class:OSMEntity
+IG	libstreetsdatabase/src/IntersectionGraph.h	/^		const IntersectionGraph& IG;$/;"	m	class:IntersectionGraph::distance_heuristic
+INCLUDE_FLAGS	Makefile	/^INCLUDE_FLAGS = -I$(LIB_STREETMAP_SRC_DIR) -I$(LIB_STREETSDATABASE_SRC_DIR) -I$(EXE_SRC_DIR) $(GRAPHICS_FLAGS) -I\/opt\/X11\/include$/;"	m
+InEventLoop	libstreetmap/src/graphics.cpp	/^    bool InEventLoop;$/;"	m	struct:t_win32_state	file:
+Include	libstreetsdatabase/src/IntersectionGraph.cpp	/^typedef enum { Include, Exclude } HighwayAction;$/;"	e	enum:__anon2	file:
+IntersectionGraph	libstreetsdatabase/src/IntersectionGraph.cpp	/^IntersectionGraph::IntersectionGraph(const OSMDatabase& osmdb,const vector<pair<unsigned long long,LatLon>>& poly_append)$/;"	f	class:IntersectionGraph
+IntersectionGraph	libstreetsdatabase/src/IntersectionGraph.h	/^	IntersectionGraph(){};$/;"	f	class:IntersectionGraph
+IntersectionGraph	libstreetsdatabase/src/IntersectionGraph.h	/^class IntersectionGraph {$/;"	c
+IntersectionProperties	libstreetsdatabase/src/IntersectionGraph.h	/^	IntersectionProperties(){}$/;"	f	struct:IntersectionProperties
+IntersectionProperties	libstreetsdatabase/src/IntersectionGraph.h	/^	IntersectionProperties(const Node& n) : osmNodeID(n.getID()),pos{n.getLat(),n.getLon()}{}$/;"	f	struct:IntersectionProperties
+IntersectionProperties	libstreetsdatabase/src/IntersectionGraph.h	/^typedef struct IntersectionProperties {$/;"	s
+IntersectionProperties	libstreetsdatabase/src/IntersectionGraph.h	/^} IntersectionProperties;$/;"	t	typeref:struct:IntersectionProperties
+KHAKI	libstreetmap/src/easygl_constants.h	/^    KHAKI, \/\/ Wikipedia says "a light shade of yellow-green" , but this one is more yellow, and very light$/;"	e	enum:color_types
+LFLAGS	Makefile	/^LFLAGS = -L. -L\/opt\/x11\/lib -L\/usr\/local\/lib\/boost$/;"	m
+LFLAGS_LIB_STREETMAP	Makefile	/^LFLAGS_LIB_STREETMAP = -lstreetmap$/;"	m
+LFLAGS_LIB_STREETSDATABASE	Makefile	/^LFLAGS_LIB_STREETSDATABASE = -lboost_serialization -lstreetsdatabase$/;"	m
+LIB_STREETMAP	Makefile	/^LIB_STREETMAP=libstreetmap.a$/;"	m
+LIB_STREETMAP_OBJ	Makefile	/^LIB_STREETMAP_OBJ=$(patsubst %.cpp, $(BUILD_DIR)\/$(CONF)\/%.o,$(wildcard $(LIB_STREETMAP_SRC_DIR)\/*.cpp))$/;"	m
+LIB_STREETMAP_SRC_DIR	Makefile	/^LIB_STREETMAP_SRC_DIR = libstreetmap\/src$/;"	m
+LIB_STREETMAP_TEST	Makefile	/^LIB_STREETMAP_TEST=test_libstreetmap$/;"	m
+LIB_STREETMAP_TEST_DIR	Makefile	/^LIB_STREETMAP_TEST_DIR = libstreetmap\/tests$/;"	m
+LIB_STREETMAP_TEST_OBJ	Makefile	/^LIB_STREETMAP_TEST_OBJ=$(patsubst %.cpp, $(BUILD_DIR)\/$(CONF)\/%.o,$(wildcard $(LIB_STREETMAP_TEST_DIR)\/*.cpp))$/;"	m
+LIB_STREETSDATABASE	Makefile	/^LIB_STREETSDATABASE=libstreetsdatabase.a$/;"	m
+LIB_STREETSDATABASE_OBJ	Makefile	/^LIB_STREETSDATABASE_OBJ=$(patsubst %.cpp, $(BUILD_DIR)\/$(CONF)\/%.o,$(wildcard $(LIB_STREETSDATABASE_SRC_DIR)\/*.cpp))$/;"	m
+LIB_STREETSDATABASE_SRC_DIR	Makefile	/^LIB_STREETSDATABASE_SRC_DIR = libstreetsdatabase\/src$/;"	m
+LIGHTGREY	libstreetmap/src/easygl_constants.h	/^    WHITE = 0, BLACK, DARKGREY, LIGHTGREY,$/;"	e	enum:color_types
+LIGHTMEDIUMBLUE	libstreetmap/src/easygl_constants.h	/^    LIGHTMEDIUMBLUE, \/\/ A light blue, with nice contrast to white, but distinct from "BLUE" (NON-X11)$/;"	e	enum:color_types
+LIGHTPINK	libstreetmap/src/easygl_constants.h	/^    PINK, LIGHTPINK, DARKGREEN, MAGENTA, \/\/ some other colours$/;"	e	enum:color_types
+LIGHTSKYBLUE	libstreetmap/src/easygl_constants.h	/^    LIGHTSKYBLUE, \/\/ A nice light blue$/;"	e	enum:color_types
+LIMEGREEN	libstreetmap/src/easygl_constants.h	/^    LIMEGREEN, \/\/ a pleasing slightly dark green$/;"	e	enum:color_types
+LOD_area_test	libstreetmap/src/graphics.h	/^inline bool LOD_area_test(float area_threshold) {$/;"	f
+LOD_min_dim_test	libstreetmap/src/graphics.cpp	/^bool LOD_min_dim_test(float dim_threshold) {$/;"	f
+LOD_screen_area_test	libstreetmap/src/graphics.cpp	/^bool LOD_screen_area_test(t_bound_box test, float screen_area_threshold) {$/;"	f
+LatLon	libstreetsdatabase/src/LatLon.h	/^    LatLon(double lat_,double lon_) : lat(lat_),lon(lon_){}$/;"	f	struct:LatLon
+LatLon	libstreetsdatabase/src/LatLon.h	/^    LatLon(std::pair<double,double> p) : lat(p.first),lon(p.second){}$/;"	f	struct:LatLon
+LatLon	libstreetsdatabase/src/LatLon.h	/^    explicit LatLon(){} $/;"	f	struct:LatLon
+LatLon	libstreetsdatabase/src/LatLon.h	/^struct LatLon {$/;"	s
+LatLon2XY	libstreetmap/src/m2.cpp	/^std::pair<double,double> LatLon2XY (LatLon point) {$/;"	f
+MAGENTA	libstreetmap/src/easygl_constants.h	/^    PINK, LIGHTPINK, DARKGREEN, MAGENTA, \/\/ some other colours$/;"	e	enum:color_types
+MAXPIXEL	libstreetmap/src/graphics.cpp	301;"	d	file:
+MAXPIXEL	libstreetmap/src/graphics.cpp	333;"	d	file:
+MAXPTS	libstreetmap/src/graphics.cpp	5156;"	d	file:
+MAX_FIXED_POLY_PTS	libstreetmap/src/graphics.cpp	2231;"	d	file:
+MAX_VEC_PRINT	libstreetmap/tests/unit_test_util.h	8;"	d
+MEDIUMPURPLE	libstreetmap/src/easygl_constants.h	/^    MEDIUMPURPLE, \/\/ A nice medium purple$/;"	e	enum:color_types
+MENU_FONT_SIZE	libstreetmap/src/graphics.cpp	223;"	d	file:
+MINPIXEL	libstreetmap/src/graphics.cpp	302;"	d	file:
+MINPIXEL	libstreetmap/src/graphics.cpp	334;"	d	file:
+MWIDTH	libstreetmap/src/graphics.cpp	222;"	d	file:
+MY_POINT	libstreetmap/src/graphics.cpp	2257;"	d	file:
+MapFixture	libstreetmap/tests/valgrind_driver.cpp	/^    MapFixture() {$/;"	f	struct:MapFixture
+MapFixture	libstreetmap/tests/valgrind_driver.cpp	/^struct MapFixture {$/;"	s	file:
+Map_Fixture	libstreetmap/tests/m1_unittests.cpp	/^	Map_Fixture() {$/;"	f	struct:Map_Fixture
+Map_Fixture	libstreetmap/tests/m1_unittests.cpp	/^struct Map_Fixture {$/;"	s	file:
+NUM_COLOR	libstreetmap/src/easygl_constants.h	/^    NUM_COLOR$/;"	e	enum:color_types
+NUM_FONT_TYPES	libstreetmap/src/graphics.cpp	246;"	d	file:
+NaturalFeature	libstreetsdatabase/src/Way.h	/^	NaturalFeature() : Way(){}$/;"	f	class:NaturalFeature
+NaturalFeature	libstreetsdatabase/src/Way.h	/^	NaturalFeature(const Way& w) : Way(w){}$/;"	f	class:NaturalFeature
+NaturalFeature	libstreetsdatabase/src/Way.h	/^class NaturalFeature : public Way {$/;"	c
+Node	libstreetsdatabase/src/Node.h	/^	Node(unsigned long long id_=0,double lat_=NAN,double lon_=NAN) : OSMEntity(id_),lat(lat_),lon(lon_){}$/;"	f	class:Node
+Node	libstreetsdatabase/src/Node.h	/^class Node : public OSMEntity {$/;"	c
+OFF	libstreetmap/src/graphics.cpp	3820;"	d	file:
+ON	libstreetmap/src/graphics.cpp	3821;"	d	file:
+ORANGE	libstreetmap/src/easygl_constants.h	/^    RED, ORANGE, YELLOW, GREEN, CYAN, BLUE, PURPLE, \/\/ standard ranbow colours.$/;"	e	enum:color_types
+OSM2BIN	Makefile	/^OSM2BIN=osm2bin$/;"	m
+OSM2BIN_OBJ	Makefile	/^OSM2BIN_OBJ=$(patsubst %.cpp, $(BUILD_DIR)\/$(CONF)\/%.o,$(wildcard $(OSM2BIN_SRC_DIR)\/*.cpp))$/;"	m
+OSM2BIN_SRC_DIR	Makefile	/^OSM2BIN_SRC_DIR = osm_to_bin\/src$/;"	m
+OSMDatabase	libstreetsdatabase/src/OSMDatabase.cpp	/^OSMDatabase::OSMDatabase(const vector<Node>& nodes_,const vector<Way>& ways_,const vector<Relation>& relations_) :$/;"	f	class:OSMDatabase
+OSMDatabase	libstreetsdatabase/src/OSMDatabase.h	/^	OSMDatabase(){}$/;"	f	class:OSMDatabase
+OSMDatabase	libstreetsdatabase/src/OSMDatabase.h	/^class OSMDatabase {$/;"	c
+OSMEntity	libstreetsdatabase/src/OSMEntity.h	/^	OSMEntity(unsigned long long id_) : id(id_){}$/;"	f	class:OSMEntity
+OSMEntity	libstreetsdatabase/src/OSMEntity.h	/^class OSMEntity {$/;"	c
+PI	libstreetmap/src/graphics.cpp	276;"	d	file:
+PINK	libstreetmap/src/easygl_constants.h	/^    PINK, LIGHTPINK, DARKGREEN, MAGENTA, \/\/ some other colours$/;"	e	enum:color_types
+PLUM	libstreetmap/src/easygl_constants.h	/^    PLUM, \/\/ much closer to pink than the colour of actual plums, and closer to its flower's colour$/;"	e	enum:color_types
+POIFilterByAttributes	libstreetsdatabase/src/IntersectionGraph.h	/^		POIFilterByAttributes(const vector<string>& tags_) : tags(tags_){}$/;"	f	class:IntersectionGraph::POIFilterByAttributes
+POIFilterByAttributes	libstreetsdatabase/src/IntersectionGraph.h	/^	class POIFilterByAttributes {$/;"	c	class:IntersectionGraph
+POIProperties	libstreetsdatabase/src/IntersectionGraph.h	/^	POIProperties(){}$/;"	f	struct:POIProperties
+POIProperties	libstreetsdatabase/src/IntersectionGraph.h	/^	POIProperties(string name_,unsigned long long osmNodeID_,LatLon pos_) : name(name_),osmNodeID(osmNodeID_),pos(pos_){}$/;"	f	struct:POIProperties
+POIProperties	libstreetsdatabase/src/IntersectionGraph.h	/^typedef struct POIProperties {$/;"	s
+POIProperties	libstreetsdatabase/src/IntersectionGraph.h	/^} POIProperties;$/;"	t	typeref:struct:POIProperties
+POI_vec	libstreetmap/src/m1.cpp	/^vector<pair<LatLon,string>> POI_vec;$/;"	v
+POSTSCRIPT	libstreetmap/src/graphics.cpp	/^    POSTSCRIPT = 1$/;"	e	enum:__anon7	file:
+PURPLE	libstreetmap/src/easygl_constants.h	/^    RED, ORANGE, YELLOW, GREEN, CYAN, BLUE, PURPLE, \/\/ standard ranbow colours.$/;"	e	enum:color_types
+ProceedPressed	libstreetmap/src/graphics.cpp	/^    bool ProceedPressed;$/;"	m	struct:t_gl_state	file:
+RED	libstreetmap/src/easygl_constants.h	/^    RED, ORANGE, YELLOW, GREEN, CYAN, BLUE, PURPLE, \/\/ standard ranbow colours.$/;"	e	enum:color_types
+RELEASE_FLAGS	Makefile	/^RELEASE_FLAGS = -O3$/;"	m
+Relation	libstreetsdatabase/src/Relation.h	/^	Relation(unsigned long long id_) : OSMEntity(id_){}$/;"	f	class:Relation
+Relation	libstreetsdatabase/src/Relation.h	/^class Relation : public OSMEntity {$/;"	c
+SADDLEBROWN	libstreetmap/src/easygl_constants.h	/^    SADDLEBROWN, \/\/ The browest brown in X11$/;"	e	enum:color_types
+SCREEN	libstreetmap/src/graphics.cpp	/^    SCREEN = 0,$/;"	e	enum:__anon7	file:
+SOLID	libstreetmap/src/easygl_constants.h	/^    SOLID, DASHED$/;"	e	enum:line_types
+SUITE	libstreetmap/tests/m1_unittests.cpp	/^SUITE(M1_Public_Functionality_Tests) {$/;"	f
+SUITE	libstreetmap/tests/m3_functionality_unittests.cpp	/^SUITE(M3_Intersection_to_Intersection_Path_Legality) {$/;"	f
+SUITE	libstreetmap/tests/m3_functionality_unittests.cpp	/^SUITE(M3_Intersection_to_Intersection_Path_Optimality) {$/;"	f
+SUITE	libstreetmap/tests/m3_functionality_unittests.cpp	/^SUITE(M3_Intersection_to_POI_Path_Legality) {$/;"	f
+SUITE	libstreetmap/tests/m3_functionality_unittests.cpp	/^SUITE(M3_Intersection_to_POI_Path_Optimality) {$/;"	f
+SUITE	libstreetmap/tests/m3_functionality_unittests.cpp	/^SUITE(M3_Path_Cost) {$/;"	f
+SUITE	libstreetmap/tests/m3_performance_inter_inter_hard_unittests.cpp	/^SUITE(M3_Performance_Hard_Intersection_Intersection) {$/;"	f
+SUITE	libstreetmap/tests/m3_performance_inter_inter_moderate_unittests.cpp	/^SUITE(M3_Performance_Moderate_Intersection_Intersection) {$/;"	f
+SUITE	libstreetmap/tests/m3_performance_inter_poi_hard_unittests.cpp	/^SUITE(M3_Performance_Hard_Inter_POI) {$/;"	f
+SUITE	libstreetmap/tests/m3_performance_inter_poi_moderate_unittests.cpp	/^SUITE(M3_Performance_Moderate_Inter_POI) {$/;"	f
+StreetDirection	libstreetsdatabase/src/IntersectionGraph.cpp	/^typedef enum { Bidirectional, Forward, Backward } StreetDirection;$/;"	t	typeref:enum:__anon3	file:
+StreetProperties	libstreetsdatabase/src/IntersectionGraph.h	/^	StreetProperties(unsigned long long osmWayID_=0,string name_="(unknown)") : name(name_),osmWayID(osmWayID_){};$/;"	f	struct:StreetProperties
+StreetProperties	libstreetsdatabase/src/IntersectionGraph.h	/^typedef struct StreetProperties {$/;"	s
+StreetProperties	libstreetsdatabase/src/IntersectionGraph.h	/^} StreetProperties;$/;"	t	typeref:struct:StreetProperties
+StreetSegmentEnds	libstreetsdatabase/src/StreetSegmentEnds.h	/^struct StreetSegmentEnds {$/;"	s
+StreetSegmentProperties	libstreetsdatabase/src/IntersectionGraph.h	/^} StreetSegmentProperties;$/;"	t	typeref:struct:__anon1
+TEST_FIXTURE	libstreetmap/tests/valgrind_driver.cpp	/^TEST_FIXTURE(MapFixture, ExerciseFunctions) {$/;"	f
+THISTLE	libstreetmap/src/easygl_constants.h	/^    THISTLE, \/\/ A sort of desaturated purple, the colour of thistle flowers$/;"	e	enum:color_types
+TURQUOISE	libstreetmap/src/easygl_constants.h	/^    TURQUOISE, \/\/ turquoise$/;"	e	enum:color_types
+T_AREA_HEIGHT	libstreetmap/src/graphics.cpp	224;"	d	file:
+UNICODE	libstreetmap/src/graphics.cpp	318;"	d	file:
+UNIT_TEST_UTIL_HPP	libstreetmap/tests/unit_test_util.h	2;"	d
+Vertex	libstreetsdatabase/src/IntersectionGraph.h	/^		typedef Graph::vertex_descriptor Vertex;$/;"	t	class:IntersectionGraph::distance_heuristic
+WAITING_FOR_FIRST_CORNER_POINT	libstreetmap/src/graphics.cpp	/^    WAITING_FOR_FIRST_CORNER_POINT,$/;"	e	enum:__anon6	file:
+WAITING_FOR_SECOND_CORNER_POINT	libstreetmap/src/graphics.cpp	/^    WAITING_FOR_SECOND_CORNER_POINT$/;"	e	enum:__anon6	file:
+WARN_FLAGS	Makefile	/^WARN_FLAGS = -Wall$/;"	m
+WHITE	libstreetmap/src/easygl_constants.h	/^    WHITE = 0, BLACK, DARKGREY, LIGHTGREY,$/;"	e	enum:color_types
+WIN32_ButtonsWND	libstreetmap/src/graphics.cpp	/^WIN32_ButtonsWND(HWND hwnd, UINT message, WPARAM wParam, LPARAM lParam) {$/;"	f	file:
+WIN32_CREATE_ERROR	libstreetmap/src/graphics.cpp	/^static void WIN32_CREATE_ERROR() {$/;"	f	file:
+WIN32_DELETE_ERROR	libstreetmap/src/graphics.cpp	/^static void WIN32_DELETE_ERROR() {$/;"	f	file:
+WIN32_DRAW_ERROR	libstreetmap/src/graphics.cpp	/^static void WIN32_DRAW_ERROR() {$/;"	f	file:
+WIN32_GraphicsWND	libstreetmap/src/graphics.cpp	/^WIN32_GraphicsWND(HWND hwnd, UINT message, WPARAM wParam, LPARAM lParam) {$/;"	f	file:
+WIN32_MainWND	libstreetmap/src/graphics.cpp	/^WIN32_MainWND(HWND hwnd, UINT message, WPARAM wParam, LPARAM lParam) {$/;"	f	file:
+WIN32_SELECT_ERROR	libstreetmap/src/graphics.cpp	/^static void WIN32_SELECT_ERROR() {$/;"	f	file:
+WIN32_StatusWND	libstreetmap/src/graphics.cpp	/^WIN32_StatusWND(HWND hwnd, UINT message, WPARAM wParam, LPARAM lParam) {$/;"	f	file:
+WINDOW_DEACTIVATED	libstreetmap/src/graphics.cpp	/^    WINDOW_DEACTIVATED = 0,$/;"	e	enum:__anon6	file:
+Way	libstreetsdatabase/src/Way.h	/^	Way(unsigned long long id_=0) : OSMEntity(id_){}$/;"	f	class:Way
+Way	libstreetsdatabase/src/Way.h	/^class Way : public OSMEntity {$/;"	c
+X11	libstreetmap/src/graphics.h	12;"	d
+YELLOW	libstreetmap/src/easygl_constants.h	/^    RED, ORANGE, YELLOW, GREEN, CYAN, BLUE, PURPLE, \/\/ standard ranbow colours.$/;"	e	enum:color_types
+ZOOM_FACTOR	libstreetmap/src/graphics.cpp	281;"	d	file:
+_drawcurve	libstreetmap/src/graphics.cpp	/^static void _drawcurve(t_point *points, int npoints, int fill) {$/;"	f	file:
+absolute_error	libstreetmap/tests/unit_test_util.h	/^float absolute_error(T A, T B) {$/;"	f
+addNode	libstreetsdatabase/src/Way.h	/^	void addNode(unsigned long long id_){ ndrefs.push_back(id_); }$/;"	f	class:Way
+add_node_ref	libstreetsdatabase/src/Relation.h	/^	void add_node_ref(unsigned long long id,const string& role){ ndrefs.push_back(make_pair(id,role)); }$/;"	f	class:Relation
+add_rel_ref	libstreetsdatabase/src/Relation.h	/^	void add_rel_ref(unsigned long long id,const string& role){ relrefs.push_back(make_pair(id,role)); }$/;"	f	class:Relation
+add_street_if_new	libstreetsdatabase/src/IntersectionGraph.cpp	/^unsigned IntersectionGraph::add_street_if_new(const Way& w)$/;"	f	class:IntersectionGraph
+add_vertex_if_new	libstreetsdatabase/src/IntersectionGraph.cpp	/^IntersectionGraph::Graph::vertex_descriptor IntersectionGraph::add_vertex_if_new(const Node& node)$/;"	f	class:IntersectionGraph
+add_way_ref	libstreetsdatabase/src/Relation.h	/^	void add_way_ref(unsigned long long id,const string& role){ wayrefs.push_back(make_pair(id,role)); }$/;"	f	class:Relation
+adjustButton	libstreetmap/src/graphics.cpp	/^    int adjustButton;$/;"	m	struct:t_win32_state	file:
+adjustRect	libstreetmap/src/graphics.cpp	/^    RECT adjustRect;$/;"	m	struct:t_win32_state	file:
+adjustwin	libstreetmap/src/graphics.cpp	/^adjustwin(void (*drawscreen) (void)) {$/;"	f	file:
+angnorm	libstreetmap/src/graphics.cpp	/^angnorm(float ang) {$/;"	f	file:
+are_directly_connected	libstreetmap/src/m1.cpp	/^bool are_directly_connected(std::string intersection_name1, std::string intersection_name2) {$/;"	f
+area	libstreetmap/src/graphics.cpp	/^float t_bound_box::area() const {$/;"	f	class:t_bound_box
+astar_visitor_goal	libstreetsdatabase/src/IntersectionGraph.h	/^	astar_visitor_goal(Vertex goal_) : goal(goal_){}$/;"	f	class:astar_visitor_goal
+astar_visitor_goal	libstreetsdatabase/src/IntersectionGraph.h	/^template<class Vertex>class astar_visitor_goal : public boost::default_astar_visitor {$/;"	c
+background_color	libstreetmap/src/graphics.cpp	/^    t_color background_color;$/;"	m	struct:t_gl_state	file:
+blue	libstreetmap/src/graphics.h	/^    uint_fast8_t blue;$/;"	m	struct:t_color
+bottom	libstreetmap/src/graphics.cpp	/^const float& t_bound_box::bottom() const {$/;"	f	class:t_bound_box
+bottom	libstreetmap/src/graphics.cpp	/^float& t_bound_box::bottom() {$/;"	f	class:t_bound_box
+bottom_left	libstreetmap/src/graphics.cpp	/^const t_point& t_bound_box::bottom_left() const {$/;"	f	class:t_bound_box
+bottom_left	libstreetmap/src/graphics.cpp	/^t_point& t_bound_box::bottom_left() {$/;"	f	class:t_bound_box
+bottomleft	libstreetmap/src/graphics.h	/^    t_point bottomleft;$/;"	m	class:t_bound_box
+build_default_menu	libstreetmap/src/graphics.cpp	/^build_default_menu(void) {$/;"	f	file:
+button	libstreetmap/src/easygl_constants.h	/^    unsigned int button; \/* indicates what button is pressed: left click is 1; right click is 3; *\/$/;"	m	struct:__anon5
+button	libstreetmap/src/graphics.cpp	/^    t_button *button;$/;"	m	struct:__anon10	file:
+button_state	libstreetmap/src/graphics.cpp	/^static t_button_state button_state = {NULL, 0};$/;"	v	file:
+change_button_text	libstreetmap/src/graphics.cpp	/^void change_button_text(const char *button_name, const char *new_button_text) {$/;"	f
+change_button_text	libstreetmap/src/graphics.cpp	/^void change_button_text(const char *button_text, const char *new_button_text) {$/;"	f
+clear	libstreetmap/src/graphics.cpp	/^void FontCache::clear() {$/;"	f	class:FontCache
+clearscreen	libstreetmap/src/graphics.cpp	/^clearscreen(void) {$/;"	f
+clearscreen	libstreetmap/src/graphics.cpp	/^void clearscreen(void) {$/;"	f
+closeStreetDatabase	libstreetsdatabase/src/StreetsDatabaseAPI.cpp	/^void closeStreetDatabase()$/;"	f
+close_font	libstreetmap/src/graphics.cpp	/^static void close_font(font_ptr font) {$/;"	f	file:
+close_graphics	libstreetmap/src/graphics.cpp	/^close_graphics(void) {$/;"	f
+close_graphics	libstreetmap/src/graphics.cpp	/^void close_graphics(void) {$/;"	f
+close_map	libstreetmap/src/m1.cpp	/^void close_map() {$/;"	f
+close_postscript	libstreetmap/src/graphics.cpp	/^void close_postscript(void) {$/;"	f
+cnodes	libstreetsdatabase/src/Relation.h	/^	const vector<pair<unsigned long long,string>>& cnodes() const { return ndrefs; }$/;"	f	class:Relation
+color_types	libstreetmap/src/easygl_constants.h	/^enum color_types {$/;"	g
+colormap_to_use	libstreetmap/src/graphics.cpp	/^    Colormap colormap_to_use;$/;"	m	struct:t_x11_state	file:
+compute_path_travel_time	libstreetmap/src/m3.cpp	/^double compute_path_travel_time(const std::vector<unsigned>& path) {$/;"	f
+convert_to_win_color	libstreetmap/src/graphics.cpp	/^COLORREF convert_to_win_color(const t_color& src) {$/;"	f
+coords	libstreetsdatabase/src/Way.h	/^	std::vector<LatLon> coords;$/;"	m	class:NaturalFeature
+countWays	libstreetsdatabase/src/OSMDatabase.h	/^	unsigned long long countWays() const { return ways_mapped.size(); }$/;"	f	class:OSMDatabase
+create_button	libstreetmap/src/graphics.cpp	/^void create_button(const char *prev_button_text, const char *button_text,$/;"	f
+crels	libstreetsdatabase/src/Relation.h	/^	const vector<pair<unsigned long long,string>>& crels() const { return relrefs; }$/;"	f	class:Relation
+ctrl_pressed	libstreetmap/src/easygl_constants.h	/^    bool ctrl_pressed; \/* indicates whether a Ctrl key was pressed when a mouse button is pressed *\/$/;"	m	struct:__anon5
+current_draw_mode	libstreetmap/src/graphics.cpp	/^    e_draw_mode current_draw_mode;$/;"	m	struct:t_gl_state	file:
+current_gc	libstreetmap/src/graphics.cpp	/^    GC gc_normal, gc_xor, gc_menus, current_gc;$/;"	m	struct:t_x11_state	file:
+currentfontrotation	libstreetmap/src/graphics.cpp	/^    int currentfontrotation;$/;"	m	struct:t_gl_state	file:
+currentfontsize	libstreetmap/src/graphics.cpp	/^    int currentfontsize;$/;"	m	struct:t_gl_state	file:
+currentlinestyle	libstreetmap/src/graphics.cpp	/^    int currentlinestyle;$/;"	m	struct:t_gl_state	file:
+currentlinewidth	libstreetmap/src/graphics.cpp	/^    int currentlinewidth;$/;"	m	struct:t_gl_state	file:
+curvePointEnd	libstreetsdatabase/src/IntersectionGraph.h	/^	unsigned curvePointEnd=0;$/;"	m	struct:__anon1
+curvePointStart	libstreetsdatabase/src/IntersectionGraph.h	/^	unsigned curvePointStart=0;$/;"	m	struct:__anon1
+cways	libstreetsdatabase/src/Relation.h	/^	const vector<pair<unsigned long long,string>>& cways() const { return wayrefs; }$/;"	f	class:Relation
+descriptor2font_rotated	libstreetmap/src/graphics.cpp	/^    std::unordered_map<font_descriptor, font_ptr, fontdesc_hasher> descriptor2font_rotated;$/;"	m	class:FontCache	file:
+descriptor2font_zeros	libstreetmap/src/graphics.cpp	/^    std::unordered_map<font_descriptor, font_ptr, fontdesc_hasher> descriptor2font_zeros;$/;"	m	class:FontCache	file:
+destroy_button	libstreetmap/src/graphics.cpp	/^destroy_button(const char *button_text) {$/;"	f
+destroy_button	libstreetmap/src/graphics.cpp	/^void destroy_button(const char *button_text) {$/;"	f
+disp_type	libstreetmap/src/graphics.cpp	/^    t_display_type disp_type;$/;"	m	struct:t_gl_state	file:
+display	libstreetmap/src/graphics.cpp	/^    Display *display;$/;"	m	struct:t_x11_state	file:
+display_height	libstreetmap/src/graphics.cpp	/^    int display_width, display_height;$/;"	m	struct:__anon11	file:
+display_width	libstreetmap/src/graphics.cpp	/^    int display_width, display_height;$/;"	m	struct:__anon11	file:
+distance_heuristic	libstreetsdatabase/src/IntersectionGraph.h	/^		distance_heuristic(const IntersectionGraph& IG_,Graph::vertex_descriptor v_) : IG(IG_),pos(IG_.G[v_].pos){ }$/;"	f	class:IntersectionGraph::distance_heuristic
+distance_heuristic	libstreetsdatabase/src/IntersectionGraph.h	/^	class distance_heuristic {$/;"	c	class:IntersectionGraph
+do_font_loading	libstreetmap/src/graphics.cpp	/^do_font_loading(int pointsize, int degrees) {$/;"	f	file:
+draw	libstreetmap/src/graphics.cpp	/^    XftDraw* draw;$/;"	m	struct:__anon9	file:
+drawClosedFeature	libstreetmap/src/m2.cpp	/^void drawClosedFeature(unsigned featureID, unsigned featurePC) {$/;"	f
+drawFeatures	libstreetmap/src/m2.cpp	/^void drawFeatures(void) {$/;"	f
+drawOpenFeature	libstreetmap/src/m2.cpp	/^void drawOpenFeature(unsigned featureID, unsigned featurePC) {$/;"	f
+drawSingleStreet	libstreetmap/src/m2.cpp	/^void drawSingleStreet(std::string streetName) {$/;"	f
+drawStreets	libstreetmap/src/m2.cpp	/^void drawStreets (void) {$/;"	f
+draw_map	libstreetmap/src/m2.cpp	/^void draw_map(std::string map_path) {$/;"	f
+draw_message	libstreetmap/src/graphics.cpp	/^draw_message(void) {$/;"	f
+draw_message	libstreetmap/src/graphics.cpp	/^void draw_message(void) {$/;"	f
+drawarc	libstreetmap/src/graphics.cpp	/^drawarc(float xc, float yc, float rad, float startang,$/;"	f
+drawarc	libstreetmap/src/graphics.cpp	/^void drawarc(float xcen, float ycen, float rad, float startang,$/;"	f
+drawellipticarc	libstreetmap/src/graphics.cpp	/^drawellipticarc(float xc, float yc, float radx, float rady, float startang, float angextent) {$/;"	f
+drawellipticarc	libstreetmap/src/graphics.cpp	/^void drawellipticarc($/;"	f
+drawellipticarc	libstreetmap/src/graphics.cpp	/^void drawellipticarc(float xc, float yc, float radx, float rady,$/;"	f
+drawline	libstreetmap/src/graphics.cpp	/^drawline(float x1, float y1, float x2, float y2) {$/;"	f
+drawline	libstreetmap/src/graphics.cpp	/^void drawline(const t_point& p1, const t_point& p2) {$/;"	f
+drawline	libstreetmap/src/graphics.cpp	/^void drawline(float x1, float y1, float x2, float y2) {$/;"	f
+drawrect	libstreetmap/src/graphics.cpp	/^drawrect(float x1, float y1, float x2, float y2) {$/;"	f
+drawrect	libstreetmap/src/graphics.cpp	/^void drawrect(const t_bound_box& rect) {$/;"	f
+drawrect	libstreetmap/src/graphics.cpp	/^void drawrect(const t_point& bottomleft, const t_point& upperright) {$/;"	f
+drawrect	libstreetmap/src/graphics.cpp	/^void drawrect(float x1, float y1, float x2, float y2) {$/;"	f
+drawscreen	libstreetmap/src/m2.cpp	/^void drawscreen (void) {$/;"	f
+drawtext	libstreetmap/src/graphics.cpp	/^void drawtext($/;"	f
+drawtext	libstreetmap/src/graphics.cpp	/^void drawtext(const t_point& text_center, const std::string& text, const t_bound_box& bounds) {$/;"	f
+drawtext	libstreetmap/src/graphics.cpp	/^void drawtext(const t_point& text_center, const std::string& text, float boundx, float boundy) {$/;"	f
+drawtext	libstreetmap/src/graphics.cpp	/^void drawtext(const t_point& text_center, const std::string& text,$/;"	f
+drawtext	libstreetmap/src/graphics.cpp	/^void drawtext(float xc, float yc, const std::string& str_text, float boundx, float boundy) {$/;"	f
+drawtext	libstreetmap/src/graphics.cpp	/^void drawtext(float xc, float yc, const std::string& text, float boundx, float boundy) {$/;"	f
+drawtext_in	libstreetmap/src/graphics.cpp	/^void drawtext_in(const t_bound_box& bbox, const std::string& text) {$/;"	f
+drawtext_in	libstreetmap/src/graphics.cpp	/^void drawtext_in(const t_bound_box& bbox, const std::string& text, float tolerance) {$/;"	f
+e_draw_mode	libstreetmap/src/graphics.h	/^enum e_draw_mode {$/;"	g
+ece297test	libstreetmap/tests/path_verify.cpp	/^namespace ece297test {$/;"	n	file:
+ece297test	libstreetmap/tests/path_verify.h	/^namespace ece297test {$/;"	n
+enable_or_disable_button	libstreetmap/src/graphics.cpp	/^void enable_or_disable_button(int ibutton, bool enabled) {$/;"	f
+enabled	libstreetmap/src/graphics.cpp	/^    bool enabled;$/;"	m	struct:__anon9	file:
+event_loop	libstreetmap/src/graphics.cpp	/^event_loop(void (*act_on_mousebutton)(float x, float y, t_event_buttonPressed button_info),$/;"	f
+event_loop	libstreetmap/src/graphics.cpp	/^void event_loop(void (*act_on_mousebutton) (float x, float y, t_event_buttonPressed button_info),$/;"	f
+examine_vertex	libstreetsdatabase/src/IntersectionGraph.h	/^	template<class Graph>void examine_vertex(Vertex u,Graph& g)$/;"	f	class:astar_visitor_goal
+fcn	libstreetmap/src/graphics.cpp	/^    void(*fcn) (void(*drawscreen) (void));$/;"	m	struct:__anon9	file:
+features	libstreetsdatabase/src/IntersectionGraph.h	/^	vector<NaturalFeature> features;$/;"	m	class:IntersectionGraph
+fillarc	libstreetmap/src/graphics.cpp	/^void fillarc(const t_point& center, float rad, float startang, float angextent) {$/;"	f
+fillarc	libstreetmap/src/graphics.cpp	/^void fillarc(float xc, float yc, float rad, float startang, float angextent) {$/;"	f
+fillarc	libstreetmap/src/graphics.cpp	/^void fillarc(float xcen, float ycen, float rad, float startang,$/;"	f
+fillellipticarc	libstreetmap/src/graphics.cpp	/^fillellipticarc(float xc, float yc, float radx, float rady, float startang,$/;"	f
+fillellipticarc	libstreetmap/src/graphics.cpp	/^void fillellipticarc($/;"	f
+fillellipticarc	libstreetmap/src/graphics.cpp	/^void fillellipticarc(float xc, float yc, float radx, float rady,$/;"	f
+fillpoly	libstreetmap/src/graphics.cpp	/^fillpoly(t_point *points, int npoints) {$/;"	f
+fillpoly	libstreetmap/src/graphics.cpp	/^void fillpoly(t_point *points, int npoints) {$/;"	f
+fillrect	libstreetmap/src/graphics.cpp	/^fillrect(float x1, float y1, float x2, float y2) {$/;"	f
+fillrect	libstreetmap/src/graphics.cpp	/^void fillrect(const t_bound_box& rect) {$/;"	f
+fillrect	libstreetmap/src/graphics.cpp	/^void fillrect(const t_point& bottomleft, const t_point& upperright) {$/;"	f
+fillrect	libstreetmap/src/graphics.cpp	/^void fillrect(float x1, float y1, float x2, float y2) {$/;"	f
+find_adjacent_intersections	libstreetmap/src/m1.cpp	/^std::vector<unsigned> find_adjacent_intersections(std::string intersection_name) {$/;"	f
+find_all_street_intersections	libstreetmap/src/m1.cpp	/^std::vector<unsigned> find_all_street_intersections(std::string street_name) {$/;"	f
+find_closest_point_of_interest	libstreetmap/src/m1.cpp	/^std::string find_closest_point_of_interest(LatLon my_position) {$/;"	f
+find_distance_between_two_points	libstreetmap/src/m1.cpp	/^double find_distance_between_two_points(LatLon point1, LatLon point2) {$/;"	f
+find_intersection_id_from_name	libstreetmap/src/m1.cpp	/^unsigned find_intersection_id_from_name(std::string intersection_name) {$/;"	f
+find_intersection_street_names	libstreetmap/src/m1.cpp	/^std::vector<std::string> find_intersection_street_names(std::string intersection_name) {$/;"	f
+find_intersection_street_names	libstreetmap/src/m1.cpp	/^std::vector<std::string> find_intersection_street_names(unsigned intersection_id) {$/;"	f
+find_intersection_street_segments	libstreetmap/src/m1.cpp	/^std::vector<unsigned> find_intersection_street_segments(std::string intersection_name) {$/;"	f
+find_intersection_street_segments	libstreetmap/src/m1.cpp	/^std::vector<unsigned> find_intersection_street_segments(unsigned intersection_id) {$/;"	f
+find_segment_travel_time	libstreetmap/src/m1.cpp	/^double find_segment_travel_time(unsigned street_segment_id) {$/;"	f
+find_street_id_from_name	libstreetmap/src/m1.cpp	/^unsigned find_street_id_from_name(std::string street_name){$/;"	f
+find_street_length	libstreetmap/src/m1.cpp	/^double find_street_length(std::string street_name) {$/;"	f
+find_street_segment_length	libstreetmap/src/m1.cpp	/^double find_street_segment_length(unsigned street_segment_id) {$/;"	f
+find_street_street_segments	libstreetmap/src/m1.cpp	/^std::vector<unsigned> find_street_street_segments(std::string street_name) {$/;"	f
+flushinput	libstreetmap/src/graphics.cpp	/^flushinput(void) {$/;"	f
+flushinput	libstreetmap/src/graphics.cpp	/^void flushinput(void) {$/;"	f
+font_descriptor	libstreetmap/src/graphics.cpp	/^    typedef std::pair<size_t, int> font_descriptor;$/;"	t	class:FontCache	file:
+font_info	libstreetmap/src/graphics.cpp	/^    FontCache font_info;$/;"	m	struct:t_gl_state	file:
+font_ptr	libstreetmap/src/graphics.cpp	/^typedef LOGFONT* font_ptr;$/;"	t	file:
+font_ptr	libstreetmap/src/graphics.cpp	/^typedef XftFont* font_ptr;$/;"	t	file:
+fontdesc_hasher	libstreetmap/src/graphics.cpp	/^    struct fontdesc_hasher {$/;"	s	class:FontCache	file:
+force_setcolor	libstreetmap/src/graphics.cpp	/^static void force_setcolor(const t_color& new_color) {$/;"	f	file:
+force_setcolor	libstreetmap/src/graphics.cpp	/^static void force_setcolor(int cindex) {$/;"	f	file:
+force_setlinestyle	libstreetmap/src/graphics.cpp	/^static void force_setlinestyle(int linestyle) {$/;"	f	file:
+force_setlinewidth	libstreetmap/src/graphics.cpp	/^static void force_setlinewidth(int linewidth) {$/;"	f	file:
+force_settextattrs	libstreetmap/src/graphics.cpp	/^static void force_settextattrs(int pointsize, int degrees) {$/;"	f	file:
+foreground_color	libstreetmap/src/graphics.cpp	/^    t_color foreground_color;$/;"	m	struct:t_gl_state	file:
+found_goal	libstreetsdatabase/src/IntersectionGraph.h	/^struct found_goal {};$/;"	s
+from	libstreetsdatabase/src/StreetSegmentEnds.h	/^    unsigned long from;$/;"	m	struct:StreetSegmentEnds
+fullArea	libstreetmap/src/m2.cpp	/^float fullArea;$/;"	v
+gc_menus	libstreetmap/src/graphics.cpp	/^    GC gc_normal, gc_xor, gc_menus, current_gc;$/;"	m	struct:t_x11_state	file:
+gc_normal	libstreetmap/src/graphics.cpp	/^    GC gc_normal, gc_xor, gc_menus, current_gc;$/;"	m	struct:t_x11_state	file:
+gc_xor	libstreetmap/src/graphics.cpp	/^    GC gc_normal, gc_xor, gc_menus, current_gc;$/;"	m	struct:t_x11_state	file:
+getFeatureAttribute	libstreetsdatabase/src/IntersectionGraph.h	/^	string getFeatureAttribute(unsigned id,const std::string& attr) const$/;"	f	class:IntersectionGraph
+getFeatureAttribute	libstreetsdatabase/src/StreetsDatabaseAPI.cpp	/^string getFeatureAttribute(unsigned id,const std::string& attr)$/;"	f
+getFeatureCount	libstreetsdatabase/src/IntersectionGraph.h	/^	unsigned getFeatureCount() const { return features.size(); }$/;"	f	class:IntersectionGraph
+getFeatureCount	libstreetsdatabase/src/StreetsDatabaseAPI.cpp	/^unsigned getFeatureCount()$/;"	f
+getFeaturePoint	libstreetsdatabase/src/IntersectionGraph.h	/^	LatLon getFeaturePoint(unsigned featureID,unsigned pointIdx) const { return features[featureID].coords[pointIdx]; }$/;"	f	class:IntersectionGraph
+getFeaturePoint	libstreetsdatabase/src/StreetsDatabaseAPI.cpp	/^LatLon getFeaturePoint(unsigned featureID,unsigned pointIdx)$/;"	f
+getFeaturePointCount	libstreetsdatabase/src/IntersectionGraph.h	/^	unsigned getFeaturePointCount(unsigned featureID) const { return features[featureID].coords.size(); }$/;"	f	class:IntersectionGraph
+getFeaturePointCount	libstreetsdatabase/src/StreetsDatabaseAPI.cpp	/^unsigned getFeaturePointCount(unsigned id)$/;"	f
+getID	libstreetsdatabase/src/OSMEntity.h	/^	unsigned long long getID() const { return id; }$/;"	f	class:OSMEntity
+getIntersectionName	libstreetsdatabase/src/IntersectionGraph.cpp	/^string IntersectionGraph::getIntersectionName(unsigned intersectionID)$/;"	f	class:IntersectionGraph
+getIntersectionName	libstreetsdatabase/src/StreetsDatabaseAPI.cpp	/^string getIntersectionName(unsigned intersectionID)$/;"	f
+getIntersectionPosition	libstreetsdatabase/src/IntersectionGraph.h	/^	LatLon getIntersectionPosition(unsigned intersectionID) const { return G[intersectionID].pos; }$/;"	f	class:IntersectionGraph
+getIntersectionPosition	libstreetsdatabase/src/StreetsDatabaseAPI.cpp	/^LatLon getIntersectionPosition(unsigned intersectionID)$/;"	f
+getIntersectionStreetSegment	libstreetsdatabase/src/StreetsDatabaseAPI.cpp	/^unsigned getIntersectionStreetSegment(unsigned intersectionID,unsigned idx)$/;"	f
+getIntersectionStreetSegmentCount	libstreetsdatabase/src/StreetsDatabaseAPI.cpp	/^unsigned getIntersectionStreetSegmentCount(unsigned intersectionID)$/;"	f
+getLat	libstreetsdatabase/src/Node.h	/^	double getLat() const { return lat; }$/;"	f	class:Node
+getLatLon	libstreetsdatabase/src/Node.h	/^	std::pair<double,double> getLatLon() const { return std::make_pair(lat,lon); }$/;"	f	class:Node
+getLatMax	libstreetmap/src/m1.cpp	/^double getLatMax () {$/;"	f
+getLatMin	libstreetmap/src/m1.cpp	/^double getLatMin () {$/;"	f
+getLon	libstreetsdatabase/src/Node.h	/^	double getLon() const { return lon; }$/;"	f	class:Node
+getLonMax	libstreetmap/src/m1.cpp	/^double getLonMax () {$/;"	f
+getLonMin	libstreetmap/src/m1.cpp	/^double getLonMin () {$/;"	f
+getNRefs	libstreetsdatabase/src/Way.h	/^	unsigned getNRefs() const { return ndrefs.size(); }$/;"	f	class:Way
+getNodeAttributeKeys	libstreetsdatabase/src/OSMDatabase.h	/^	std::vector<std::string> getNodeAttributeKeys() const {$/;"	f	class:OSMDatabase
+getNodeRefCounts	libstreetsdatabase/src/OSMDatabase.cpp	/^pair<unsigned,map<unsigned long long,unsigned>> OSMDatabase::getNodeRefCounts() const$/;"	f	class:OSMDatabase
+getNodeRefHist	libstreetsdatabase/src/OSMDatabase.cpp	/^map<unsigned,unsigned> OSMDatabase::getNodeRefHist() const$/;"	f	class:OSMDatabase
+getNumberOfIntersections	libstreetsdatabase/src/IntersectionGraph.h	/^	unsigned long long getNumberOfIntersections() const  { return num_vertices(G); }$/;"	f	class:IntersectionGraph
+getNumberOfIntersections	libstreetsdatabase/src/StreetsDatabaseAPI.cpp	/^unsigned long long getNumberOfIntersections()$/;"	f
+getNumberOfPointsOfInterest	libstreetsdatabase/src/IntersectionGraph.h	/^	unsigned long long getNumberOfPointsOfInterest() const { return pointsOfInterest.size(); }$/;"	f	class:IntersectionGraph
+getNumberOfPointsOfInterest	libstreetsdatabase/src/StreetsDatabaseAPI.cpp	/^unsigned long long getNumberOfPointsOfInterest()$/;"	f
+getNumberOfStreetSegments	libstreetsdatabase/src/IntersectionGraph.h	/^	unsigned long long getNumberOfStreetSegments() const { return num_edges(G); }$/;"	f	class:IntersectionGraph
+getNumberOfStreetSegments	libstreetsdatabase/src/StreetsDatabaseAPI.cpp	/^unsigned long long getNumberOfStreetSegments()$/;"	f
+getNumberOfStreets	libstreetsdatabase/src/IntersectionGraph.h	/^	unsigned long long getNumberOfStreets() const { return streetProperties.size(); }$/;"	f	class:IntersectionGraph
+getNumberOfStreets	libstreetsdatabase/src/StreetsDatabaseAPI.cpp	/^unsigned long long getNumberOfStreets()$/;"	f
+getPointOfInterest	libstreetsdatabase/src/IntersectionGraph.h	/^	const POIProperties& getPointOfInterest(unsigned i) const { return pointsOfInterest[i]; }$/;"	f	class:IntersectionGraph
+getPointOfInterestName	libstreetsdatabase/src/StreetsDatabaseAPI.cpp	/^string getPointOfInterestName(unsigned pointOfInterestID)$/;"	f
+getPointOfInterestPosition	libstreetsdatabase/src/StreetsDatabaseAPI.cpp	/^LatLon getPointOfInterestPosition(unsigned pointOfInterestID)$/;"	f
+getRefs	libstreetsdatabase/src/Way.h	/^	const std::vector<unsigned long long>& getRefs() const { return ndrefs; }$/;"	f	class:Way
+getRefsRange	libstreetsdatabase/src/Way.h	/^	std::pair<std::vector<unsigned long long>::const_iterator,std::vector<unsigned long long>::const_iterator> getRefsRange() const { return make_pair(ndrefs.begin(),ndrefs.end()); }$/;"	f	class:Way
+getStreet	libstreetsdatabase/src/IntersectionGraph.h	/^	const StreetProperties& 		getStreet(unsigned i) const { return streetProperties[i]; }$/;"	f	class:IntersectionGraph
+getStreetMaxSpeedLim	libstreetmap/src/m1.cpp	/^double getStreetMaxSpeedLim (std::string street_name) {$/;"	f
+getStreetName	libstreetsdatabase/src/StreetsDatabaseAPI.cpp	/^string getStreetName(unsigned streetID)$/;"	f
+getStreetSegment	libstreetsdatabase/src/IntersectionGraph.h	/^	const StreetSegmentProperties& 	getStreetSegment(unsigned i) const { return G[streetSegmentDescriptors[i]]; }$/;"	f	class:IntersectionGraph
+getStreetSegmentCurvePoint	libstreetsdatabase/src/IntersectionGraph.h	/^	LatLon getStreetSegmentCurvePoint(unsigned ssID,unsigned i) const$/;"	f	class:IntersectionGraph
+getStreetSegmentCurvePoint	libstreetsdatabase/src/StreetsDatabaseAPI.cpp	/^LatLon getStreetSegmentCurvePoint(unsigned streetSegmentID,unsigned idx)$/;"	f
+getStreetSegmentCurvePointCount	libstreetsdatabase/src/IntersectionGraph.h	/^	unsigned getStreetSegmentCurvePointCount(unsigned ssID) 	const$/;"	f	class:IntersectionGraph
+getStreetSegmentCurvePointCount	libstreetsdatabase/src/StreetsDatabaseAPI.cpp	/^unsigned getStreetSegmentCurvePointCount(unsigned streetSegmentID)$/;"	f
+getStreetSegmentEnds	libstreetsdatabase/src/IntersectionGraph.h	/^	StreetSegmentEnds getStreetSegmentEnds(unsigned streetSegmentID) const {$/;"	f	class:IntersectionGraph
+getStreetSegmentEnds	libstreetsdatabase/src/StreetsDatabaseAPI.cpp	/^StreetSegmentEnds getStreetSegmentEnds(unsigned streetSegmentID)$/;"	f
+getStreetSegmentOneWay	libstreetsdatabase/src/StreetsDatabaseAPI.cpp	/^bool getStreetSegmentOneWay(unsigned streetSegmentID)$/;"	f
+getStreetSegmentSpeedLimit	libstreetsdatabase/src/IntersectionGraph.h	/^	double getStreetSegmentSpeedLimit(unsigned i) const { return G[streetSegmentDescriptors[i]].speedLimit; }$/;"	f	class:IntersectionGraph
+getStreetSegmentSpeedLimit	libstreetsdatabase/src/StreetsDatabaseAPI.cpp	/^double getStreetSegmentSpeedLimit(unsigned streetSegmentID)$/;"	f
+getStreetSegmentStreetID	libstreetsdatabase/src/StreetsDatabaseAPI.cpp	/^unsigned getStreetSegmentStreetID(unsigned streetSegmentID)$/;"	f
+getStreetSegmentsIncidentOnIntersection	libstreetsdatabase/src/IntersectionGraph.cpp	/^set<unsigned> IntersectionGraph::getStreetSegmentsIncidentOnIntersection(unsigned i) const$/;"	f	class:IntersectionGraph
+getStreetsIncidentOnIntersection	libstreetsdatabase/src/IntersectionGraph.cpp	/^set<unsigned> IntersectionGraph::getStreetsIncidentOnIntersection(unsigned i) const$/;"	f	class:IntersectionGraph
+getTag	libstreetsdatabase/src/OSMEntity.h	/^	std::string getTag(const std::string& k) const {$/;"	f	class:OSMEntity
+getTags	libstreetsdatabase/src/OSMEntity.h	/^	const std::map<std::string,std::string>& getTags() const { return tags; }$/;"	f	class:OSMEntity
+getWayAttributeKeys	libstreetsdatabase/src/OSMDatabase.h	/^	std::vector<std::string> getWayAttributeKeys() const {$/;"	f	class:OSMDatabase
+get_center	libstreetmap/src/graphics.cpp	/^t_point t_bound_box::get_center() const {$/;"	f	class:t_bound_box
+get_font_info	libstreetmap/src/graphics.cpp	/^font_ptr FontCache::get_font_info($/;"	f	class:FontCache
+get_font_info	libstreetmap/src/graphics.cpp	/^font_ptr FontCache::get_font_info(size_t pointsize, int degrees) {$/;"	f	class:FontCache
+get_height	libstreetmap/src/graphics.cpp	/^float t_bound_box::get_height() const {$/;"	f	class:t_bound_box
+get_keypress_input	libstreetmap/src/graphics.cpp	/^    bool get_keypress_input, get_mouse_move_input;$/;"	m	struct:t_gl_state	file:
+get_mouse_move_input	libstreetmap/src/graphics.cpp	/^    bool get_keypress_input, get_mouse_move_input;$/;"	m	struct:t_gl_state	file:
+get_report_structure	libstreetmap/src/graphics.cpp	/^void get_report_structure(t_report *report) {$/;"	f
+get_visible_world	libstreetmap/src/graphics.cpp	/^t_bound_box get_visible_world() {$/;"	f
+get_width	libstreetmap/src/graphics.cpp	/^float t_bound_box::get_width() const {$/;"	f	class:t_bound_box
+get_xcenter	libstreetmap/src/graphics.cpp	/^float t_bound_box::get_xcenter() const {$/;"	f	class:t_bound_box
+get_ycenter	libstreetmap/src/graphics.cpp	/^float t_bound_box::get_ycenter() const {$/;"	f	class:t_bound_box
+getcolor	libstreetmap/src/graphics.cpp	/^t_color getcolor() {$/;"	f
+getcolor	libstreetmap/src/graphics.cpp	/^t_color getcolor(void) {$/;"	f
+getfontsize	libstreetmap/src/graphics.cpp	/^int getfontsize() {$/;"	f
+gettextrotation	libstreetmap/src/graphics.cpp	/^int gettextrotation() {$/;"	f
+gl_state	libstreetmap/src/graphics.cpp	/^static t_gl_state gl_state;$/;"	v	file:
+goal	libstreetsdatabase/src/IntersectionGraph.h	/^	Vertex goal;$/;"	m	class:astar_visitor_goal
+green	libstreetmap/src/graphics.h	/^    uint_fast8_t green;$/;"	m	struct:t_color
+hButtonsWnd	libstreetmap/src/graphics.cpp	/^    HWND hMainWnd, hGraphicsWnd, hButtonsWnd, hStatusWnd;$/;"	m	struct:t_win32_state	file:
+hGraphicsBrush	libstreetmap/src/graphics.cpp	/^    HBRUSH hGraphicsBrush, hGrayBrush;$/;"	m	struct:t_win32_state	file:
+hGraphicsDC	libstreetmap/src/graphics.cpp	/^    HDC hGraphicsDC;$/;"	m	struct:t_win32_state	file:
+hGraphicsFont	libstreetmap/src/graphics.cpp	/^    HFONT hGraphicsFont;$/;"	m	struct:t_win32_state	file:
+hGraphicsPen	libstreetmap/src/graphics.cpp	/^    HPEN hGraphicsPen;$/;"	m	struct:t_win32_state	file:
+hGraphicsWnd	libstreetmap/src/graphics.cpp	/^    HWND hMainWnd, hGraphicsWnd, hButtonsWnd, hStatusWnd;$/;"	m	struct:t_win32_state	file:
+hGrayBrush	libstreetmap/src/graphics.cpp	/^    HBRUSH hGraphicsBrush, hGrayBrush;$/;"	m	struct:t_win32_state	file:
+hMainWnd	libstreetmap/src/graphics.cpp	/^    HWND hMainWnd, hGraphicsWnd, hButtonsWnd, hStatusWnd;$/;"	m	struct:t_win32_state	file:
+hStatusWnd	libstreetmap/src/graphics.cpp	/^    HWND hMainWnd, hGraphicsWnd, hButtonsWnd, hStatusWnd;$/;"	m	struct:t_win32_state	file:
+handle_zoom_in	libstreetmap/src/graphics.cpp	/^handle_zoom_in(float x, float y, void (*drawscreen) (void)) {$/;"	f	file:
+handle_zoom_out	libstreetmap/src/graphics.cpp	/^handle_zoom_out(float x, float y, void (*drawscreen) (void)) {$/;"	f	file:
+hasTag	libstreetsdatabase/src/OSMEntity.h	/^	bool hasTag(const std::string& s) const { return tags.find(s) != tags.end(); }$/;"	f	class:OSMEntity
+height	libstreetmap/src/graphics.cpp	/^    int height;$/;"	m	struct:__anon9	file:
+hwnd	libstreetmap/src/graphics.cpp	/^    HWND hwnd;$/;"	m	struct:__anon9	file:
+id	libstreetsdatabase/src/OSMEntity.h	/^	unsigned long long id;$/;"	m	class:OSMEntity
+incidentStreetSegments	libstreetsdatabase/src/StreetsDatabaseAPI.cpp	/^vector<unsigned> incidentStreetSegments;$/;"	v
+init_graphics	libstreetmap/src/graphics.cpp	/^init_graphics(const std::string& window_name, int cindex) {$/;"	f
+init_graphics	libstreetmap/src/graphics.cpp	/^void init_graphics(const std::string& window_name, const t_color& background) {$/;"	f
+init_graphics	libstreetmap/src/graphics.cpp	/^void init_graphics(const std::string& window_name, int cindex) {$/;"	f
+init_postscript	libstreetmap/src/graphics.cpp	/^int init_postscript(const char *fname) {$/;"	f
+init_xleft	libstreetmap/src/graphics.cpp	/^    float init_xleft, init_xright, init_ytop, init_ybot;$/;"	m	struct:__anon11	file:
+init_xright	libstreetmap/src/graphics.cpp	/^    float init_xleft, init_xright, init_ytop, init_ybot;$/;"	m	struct:__anon11	file:
+init_ybot	libstreetmap/src/graphics.cpp	/^    float init_xleft, init_xright, init_ytop, init_ybot;$/;"	m	struct:__anon11	file:
+init_ytop	libstreetmap/src/graphics.cpp	/^    float init_xleft, init_xright, init_ytop, init_ybot;$/;"	m	struct:__anon11	file:
+initialized	libstreetmap/src/graphics.cpp	/^    bool initialized;$/;"	m	struct:t_gl_state	file:
+intersectionID_last	libstreetsdatabase/src/StreetsDatabaseAPI.cpp	/^unsigned intersectionID_last=-1;$/;"	v
+intersects	libstreetmap/src/graphics.cpp	/^bool t_bound_box::intersects(const t_point& test_pt) const {$/;"	f	class:t_bound_box
+intersects	libstreetmap/src/graphics.cpp	/^bool t_bound_box::intersects(float x, float y) const {$/;"	f	class:t_bound_box
+isHighway	libstreetsdatabase/src/OSMDatabase.h	/^	static bool isHighway(const Way& w){ return w.hasTag("highway"); }$/;"	f	class:OSMDatabase
+is_closed	libstreetsdatabase/src/Way.h	/^	bool is_closed() const { return ndrefs.front() == ndrefs.back(); }$/;"	f	class:Way
+is_droppable_event	libstreetmap/src/graphics.cpp	/^bool is_droppable_event($/;"	f
+iseq	libstreetsdatabase/src/IntersectionGraph.h	/^	unsigned iseq=0;						\/\/ intersection sequence number (for when a given name is not distinct)$/;"	m	struct:IntersectionProperties
+ispressed	libstreetmap/src/graphics.cpp	/^    bool ispressed;$/;"	m	struct:__anon9	file:
+lat	libstreetsdatabase/src/LatLon.h	/^    double lat=NAN;$/;"	m	struct:LatLon
+lat	libstreetsdatabase/src/Node.h	/^	double lat,lon;$/;"	m	class:Node
+latMax	libstreetmap/src/m1.cpp	/^double latMax = -360;$/;"	v
+latMin	libstreetmap/src/m1.cpp	/^double latMin = 360;$/;"	v
+left	libstreetmap/src/graphics.cpp	/^const float& t_bound_box::left() const {$/;"	f	class:t_bound_box
+left	libstreetmap/src/graphics.cpp	/^float& t_bound_box::left() {$/;"	f	class:t_bound_box
+length	libstreetsdatabase/src/IntersectionGraph.h	/^	double length=0;$/;"	m	struct:__anon1
+line_types	libstreetmap/src/easygl_constants.h	/^enum line_types {$/;"	g
+load	libstreetsdatabase/src/IntersectionGraph.h	/^	template<class Archive>void load(Archive& ar,const unsigned version){$/;"	f	class:IntersectionGraph
+loadStreetDatabaseBIN	libstreetsdatabase/src/StreetsDatabaseAPI.cpp	/^bool loadStreetDatabaseBIN(const std::string& fn)$/;"	f
+load_map	libstreetmap/src/m1.cpp	/^bool load_map(std::string map_name) {$/;"	f
+lon	libstreetsdatabase/src/LatLon.h	/^    double lon=NAN;$/;"	m	struct:LatLon
+lon	libstreetsdatabase/src/Node.h	/^	double lat,lon;$/;"	m	class:Node
+lonMax	libstreetmap/src/m1.cpp	/^double lonMax = -360;$/;"	v
+lonMin	libstreetmap/src/m1.cpp	/^double lonMin = 360;$/;"	v
+main	libstreetmap/tests/test_driver_stdout.cpp	/^int main(int argc, char** argv) {$/;"	f
+main	libstreetmap/tests/tester.cpp	/^int main(int argc, char** argv) {$/;"	f
+main	libstreetmap/tests/valgrind_driver.cpp	/^int main(int argc, char** argv) {$/;"	f
+main	main/src/main.cpp	/^int main() {$/;"	f
+mapWays	libstreetsdatabase/src/OSMDatabase.cpp	/^vector<Way> OSMDatabase::mapWays(const map<unsigned long long,unsigned>& nodes_map_) const$/;"	f	class:OSMDatabase
+map_button	libstreetmap/src/graphics.cpp	/^static void map_button(int bnum) {$/;"	f	file:
+map_name	libstreetmap/tests/valgrind_driver.cpp	/^std::string map_name = "\/cad2\/ece297s\/public\/maps\/saint_helena.bin";$/;"	v
+menu	libstreetmap/src/graphics.cpp	/^    Window toplevel, menu, textarea;$/;"	m	struct:t_x11_state	file:
+menu_draw	libstreetmap/src/graphics.cpp	/^    XftDraw *toplevel_draw, *menu_draw, *textarea_draw;$/;"	m	struct:t_x11_state	file:
+menutext	libstreetmap/src/graphics.cpp	/^static void menutext(XftDraw* draw, int xc, int yc, const char *text) {$/;"	f	file:
+merge_poly_segments	libstreetsdatabase/src/IntersectionGraph.cpp	/^std::vector<LatLon> merge_poly_segments(const std::vector<std::vector<std::pair<unsigned long long,LatLon>>>& outer)$/;"	f
+my_malloc	libstreetmap/src/graphics.cpp	/^static void *my_malloc(int ibytes) {$/;"	f	file:
+my_realloc	libstreetmap/src/graphics.cpp	/^static void *my_realloc(void *memblk, int ibytes) {$/;"	f	file:
+name	libstreetsdatabase/src/IntersectionGraph.h	/^	string name;$/;"	m	struct:StreetProperties
+name	libstreetsdatabase/src/IntersectionGraph.h	/^	string name="";$/;"	m	struct:POIProperties
+ndrefs	libstreetsdatabase/src/Relation.h	/^	vector<pair<unsigned long long,string>> ndrefs;$/;"	m	class:Relation
+ndrefs	libstreetsdatabase/src/Way.h	/^	std::vector<unsigned long long> ndrefs;		\/\/\/ SHOULD BE PRIVATE!!$/;"	m	class:Way
+nodes	libstreetsdatabase/src/OSMDatabase.h	/^	std::vector<Node> nodes;$/;"	m	class:OSMDatabase
+nodes_map	libstreetsdatabase/src/IntersectionGraph.h	/^	map<unsigned long long,Graph::vertex_descriptor> nodes_map;$/;"	m	class:IntersectionGraph
+nodes_map	libstreetsdatabase/src/OSMDatabase.h	/^	std::map<unsigned long long,unsigned> nodes_map;$/;"	m	class:OSMDatabase
+numUnknownStreet	libstreetmap/src/m1.cpp	/^unsigned int numUnknownStreet = 0;$/;"	v
+num_buttons	libstreetmap/src/graphics.cpp	/^    int num_buttons;$/;"	m	struct:__anon10	file:
+offset	libstreetmap/src/graphics.cpp	/^void t_bound_box::offset(const t_point& relative_to) {$/;"	f	class:t_bound_box
+offset	libstreetmap/src/graphics.cpp	/^void t_bound_box::offset(float by_x, float by_y) {$/;"	f	class:t_bound_box
+offset	libstreetmap/src/graphics.cpp	/^void t_point::offset(float _x, float _y) {$/;"	f	class:t_point
+oneway	libstreetsdatabase/src/IntersectionGraph.h	/^	bool oneway=false;$/;"	m	struct:__anon1
+operator !=	libstreetmap/src/graphics.cpp	/^bool t_color::operator!=(color_types rhs) const {$/;"	f	class:t_color
+operator !=	libstreetmap/src/graphics.cpp	/^bool t_color::operator!=(const t_color& rhs) const {$/;"	f	class:t_color
+operator ()	libstreetmap/src/graphics.cpp	/^        inline std::size_t operator()(const font_descriptor& v) const {$/;"	f	struct:FontCache::fontdesc_hasher
+operator ()	libstreetsdatabase/src/IntersectionGraph.h	/^		CostType operator()(Vertex v){$/;"	f	class:IntersectionGraph::distance_heuristic
+operator ()	libstreetsdatabase/src/IntersectionGraph.h	/^		bool operator()(const Node& n) const {$/;"	f	class:IntersectionGraph::POIFilterByAttributes
+operator ()	libstreetsdatabase/src/OSMDatabase.h	/^	template<typename... Args>result_type operator()(Args...){ return val; }$/;"	f	class:ConstFn
+operator *	libstreetmap/src/graphics.cpp	/^t_point operator*(float lhs, const t_point& rhs) {$/;"	f
+operator *	libstreetmap/src/graphics.cpp	/^t_point t_point::operator*(float rhs) const {$/;"	f	class:t_point
+operator *=	libstreetmap/src/graphics.cpp	/^t_point& t_point::operator*=(float rhs) {$/;"	f	class:t_point
+operator +	libstreetmap/src/graphics.cpp	/^t_bound_box t_bound_box::operator+(const t_point& rhs) const {$/;"	f	class:t_bound_box
+operator +	libstreetmap/src/graphics.cpp	/^t_point t_point::operator+(const t_point& rhs) const {$/;"	f	class:t_point
+operator +=	libstreetmap/src/graphics.cpp	/^t_bound_box& t_bound_box::operator+=(const t_point& rhs) {$/;"	f	class:t_bound_box
+operator +=	libstreetmap/src/graphics.cpp	/^t_point& t_point::operator+=(const t_point& rhs) {$/;"	f	class:t_point
+operator -	libstreetmap/src/graphics.cpp	/^t_bound_box t_bound_box::operator-(const t_point& rhs) const {$/;"	f	class:t_bound_box
+operator -	libstreetmap/src/graphics.cpp	/^t_point t_point::operator-(const t_point& rhs) const {$/;"	f	class:t_point
+operator -=	libstreetmap/src/graphics.cpp	/^t_bound_box& t_bound_box::operator-=(const t_point& rhs) {$/;"	f	class:t_bound_box
+operator -=	libstreetmap/src/graphics.cpp	/^t_point& t_point::operator-=(const t_point& rhs) {$/;"	f	class:t_point
+operator <<	libstreetmap/tests/unit_test_util.h	/^std::ostream& operator<<(std::ostream& os, const std::vector<T>& vec) {$/;"	f
+operator <<	libstreetsdatabase/src/Node.cpp	/^std::ostream& operator<<(std::ostream& os,const Node& n)$/;"	f
+operator <<	libstreetsdatabase/src/Relation.cpp	/^ostream& operator<<(ostream& os,const Relation& r)$/;"	f
+operator <<	libstreetsdatabase/src/Way.cpp	/^ostream& operator<<(ostream& os,const Way& w)$/;"	f
+operator =	libstreetmap/src/graphics.cpp	/^color_types t_color::operator=(color_types color_enum) {$/;"	f	class:t_color
+operator =	libstreetmap/src/graphics.cpp	/^t_bound_box& t_bound_box::operator=(const t_bound_box& src) {$/;"	f	class:t_bound_box
+operator =	libstreetmap/src/graphics.cpp	/^t_point& t_point::operator=(const t_point& src) {$/;"	f	class:t_point
+operator ==	libstreetmap/src/graphics.cpp	/^bool t_color::operator==(color_types rhs) const {$/;"	f	class:t_color
+operator ==	libstreetmap/src/graphics.cpp	/^bool t_color::operator==(const t_color& rhs) const {$/;"	f	class:t_color
+order_rotated	libstreetmap/src/graphics.cpp	/^    std::deque<font_descriptor> order_rotated;$/;"	m	class:FontCache	file:
+order_zeros	libstreetmap/src/graphics.cpp	/^    std::deque<font_descriptor> order_zeros;$/;"	m	class:FontCache	file:
+osmNodeID	libstreetsdatabase/src/IntersectionGraph.h	/^	unsigned long long osmNodeID=0;$/;"	m	struct:IntersectionProperties
+osmNodeID	libstreetsdatabase/src/IntersectionGraph.h	/^	unsigned long long osmNodeID=0;$/;"	m	struct:POIProperties
+osmWayID	libstreetsdatabase/src/IntersectionGraph.h	/^	unsigned long long osmWayID;$/;"	m	struct:StreetProperties
+pan_state	libstreetmap/src/graphics.cpp	/^static t_panning_state pan_state = {0, 0, false};$/;"	v	file:
+panning_enabled	libstreetmap/src/graphics.cpp	/^    bool panning_enabled;$/;"	m	struct:__anon12	file:
+panning_execute	libstreetmap/src/graphics.cpp	/^panning_execute(int x, int y, void (*drawscreen) (void)) {$/;"	f	file:
+panning_off	libstreetmap/src/graphics.cpp	/^panning_off(void) {$/;"	f	file:
+panning_on	libstreetmap/src/graphics.cpp	/^panning_on(int start_x, int start_y) {$/;"	f	file:
+path_is_legal	libstreetmap/tests/path_verify.cpp	/^bool path_is_legal(unsigned start_intersection, unsigned end_intersection, const std::vector<unsigned>& path) {$/;"	f	namespace:ece297test
+pointsOfInterest	libstreetsdatabase/src/IntersectionGraph.h	/^	vector<POIProperties> pointsOfInterest;$/;"	m	class:IntersectionGraph
+poly	libstreetmap/src/graphics.cpp	/^    int poly[3][2];$/;"	m	struct:__anon9	file:
+pos	libstreetsdatabase/src/IntersectionGraph.h	/^		LatLon pos={0,0};$/;"	m	class:IntersectionGraph::distance_heuristic
+pos	libstreetsdatabase/src/IntersectionGraph.h	/^	LatLon pos;$/;"	m	struct:POIProperties
+pos	libstreetsdatabase/src/IntersectionGraph.h	/^	LatLon pos={0,0};$/;"	m	struct:IntersectionProperties
+postscript	libstreetmap/src/graphics.cpp	/^postscript(void (*drawscreen) (void)) {$/;"	f	file:
+predef_colors	libstreetmap/src/graphics.cpp	/^static const vector<t_color> predef_colors = {$/;"	v	file:
+previous_x	libstreetmap/src/graphics.cpp	/^    int previous_x, previous_y;$/;"	m	struct:__anon12	file:
+previous_y	libstreetmap/src/graphics.cpp	/^    int previous_x, previous_y;$/;"	m	struct:__anon12	file:
+proceed	libstreetmap/src/graphics.cpp	/^proceed(void (*drawscreen) (void)) {$/;"	f	file:
+ps	libstreetmap/src/graphics.cpp	/^    FILE *ps;$/;"	m	struct:t_gl_state	file:
+ps_bot	libstreetmap/src/graphics.cpp	/^    float ps_left, ps_right, ps_top, ps_bot;$/;"	m	struct:__anon11	file:
+ps_cnames	libstreetmap/src/graphics.cpp	/^static const char *ps_cnames[NUM_COLOR] = {$/;"	v	file:
+ps_left	libstreetmap/src/graphics.cpp	/^    float ps_left, ps_right, ps_top, ps_bot;$/;"	m	struct:__anon11	file:
+ps_right	libstreetmap/src/graphics.cpp	/^    float ps_left, ps_right, ps_top, ps_bot;$/;"	m	struct:__anon11	file:
+ps_top	libstreetmap/src/graphics.cpp	/^    float ps_left, ps_right, ps_top, ps_bot;$/;"	m	struct:__anon11	file:
+ps_xmult	libstreetmap/src/graphics.cpp	/^    float ps_xmult, ps_ymult;$/;"	m	struct:__anon11	file:
+ps_xmult	libstreetmap/src/graphics.h	/^    float ps_xmult, ps_ymult;$/;"	m	struct:__anon4
+ps_ymult	libstreetmap/src/graphics.cpp	/^    float ps_xmult, ps_ymult;$/;"	m	struct:__anon11	file:
+ps_ymult	libstreetmap/src/graphics.h	/^    float ps_xmult, ps_ymult;$/;"	m	struct:__anon4
+quit	libstreetmap/src/graphics.cpp	/^quit(void (*drawscreen) (void)) {$/;"	f	file:
+rand_intersection	libstreetmap/tests/m1_unittests.cpp	/^	std::uniform_int_distribution<unsigned> rand_intersection;$/;"	m	struct:Map_Fixture	file:
+rand_intersection	libstreetmap/tests/valgrind_driver.cpp	/^	std::uniform_int_distribution<unsigned> rand_intersection;$/;"	m	struct:MapFixture	file:
+rand_poi	libstreetmap/tests/valgrind_driver.cpp	/^	std::uniform_int_distribution<unsigned> rand_poi;$/;"	m	struct:MapFixture	file:
+rand_segment	libstreetmap/tests/m1_unittests.cpp	/^	std::uniform_int_distribution<unsigned> rand_segment;$/;"	m	struct:Map_Fixture	file:
+rand_street	libstreetmap/tests/m1_unittests.cpp	/^	std::uniform_int_distribution<unsigned> rand_street;$/;"	m	struct:Map_Fixture	file:
+rect_off_screen	libstreetmap/src/graphics.cpp	/^rect_off_screen(float x1, float y1, float x2, float y2) {$/;"	f	file:
+rect_off_screen	libstreetmap/src/graphics.cpp	/^static int rect_off_screen(const t_bound_box& bbox) {$/;"	f	file:
+red	libstreetmap/src/graphics.h	/^    uint_fast8_t red;   \/\/ 8-bits per colour component$/;"	m	struct:t_color
+redraw_needed	libstreetmap/src/graphics.cpp	/^    bool redraw_needed;$/;"	m	struct:t_gl_state	file:
+relations	libstreetsdatabase/src/OSMDatabase.h	/^	std::vector<Relation> relations;$/;"	m	class:OSMDatabase
+relative_error	libstreetmap/tests/unit_test_util.h	/^float relative_error(T A, T B) {$/;"	f
+relrefs	libstreetsdatabase/src/Relation.h	/^	vector<pair<unsigned long long,string>> relrefs;$/;"	m	class:Relation
+replaceTags	libstreetsdatabase/src/OSMEntity.h	/^	void replaceTags(const std::map<std::string,std::string>& tags_){ tags=tags_; }$/;"	f	class:OSMEntity
+report_structure	libstreetmap/src/graphics.cpp	/^void report_structure(t_report*) {$/;"	f
+reset_common_state	libstreetmap/src/graphics.cpp	/^static void reset_common_state() {$/;"	f	file:
+result_type	libstreetsdatabase/src/OSMDatabase.h	/^	typedef Result result_type;$/;"	t	class:ConstFn
+right	libstreetmap/src/graphics.cpp	/^const float& t_bound_box::right() const {$/;"	f	class:t_bound_box
+right	libstreetmap/src/graphics.cpp	/^float& t_bound_box::right() {$/;"	f	class:t_bound_box
+rng	libstreetmap/tests/m1_unittests.cpp	/^	std::minstd_rand rng;$/;"	m	struct:Map_Fixture	file:
+rng	libstreetmap/tests/valgrind_driver.cpp	/^	std::minstd_rand rng;$/;"	m	struct:MapFixture	file:
+save	libstreetsdatabase/src/IntersectionGraph.h	/^    template<class Archive>void save(Archive& ar,const unsigned version) const {$/;"	f	class:IntersectionGraph
+screen_num	libstreetmap/src/graphics.cpp	/^    int screen_num;$/;"	m	struct:t_x11_state	file:
+serialize	libstreetsdatabase/src/IntersectionGraph.h	/^	template<class Archive>void serialize(Archive& ar,const unsigned version){$/;"	f	struct:POIProperties
+serialize	libstreetsdatabase/src/IntersectionGraph.h	/^    template<class Archive>void serialize(Archive& ar,const unsigned version){$/;"	f	struct:IntersectionProperties
+serialize	libstreetsdatabase/src/IntersectionGraph.h	/^    template<class Archive>void serialize(Archive& ar,const unsigned version){$/;"	f	struct:StreetProperties
+serialize	libstreetsdatabase/src/IntersectionGraph.h	/^    template<class Archive>void serialize(Archive& ar,const unsigned version){$/;"	f	struct:__anon1
+serialize	libstreetsdatabase/src/LatLon.h	/^    template<class Archive>void serialize(Archive& ar,const unsigned version){$/;"	f	struct:LatLon
+serialize	libstreetsdatabase/src/Node.h	/^	template<class Archive>void serialize(Archive& ar,unsigned int version){ OSMEntity::serialize(ar,version); ar & lat & lon; }$/;"	f	class:Node
+serialize	libstreetsdatabase/src/OSMDatabase.h	/^	template<class Archive>void serialize(Archive& ar,const unsigned int version)$/;"	f	class:OSMDatabase
+serialize	libstreetsdatabase/src/OSMEntity.h	/^	template<class Archive>void serialize(Archive& ar,unsigned int version){ ar & id & tags; }$/;"	f	class:OSMEntity
+serialize	libstreetsdatabase/src/Relation.h	/^	template<class Archive>void serialize(Archive& ar,unsigned int version){$/;"	f	class:Relation
+serialize	libstreetsdatabase/src/Way.h	/^	template<class Archive>void serialize(Archive& ar,const unsigned int ver)$/;"	f	class:NaturalFeature
+serialize	libstreetsdatabase/src/Way.h	/^	template<class Archive>void serialize(Archive& ar,unsigned int version){$/;"	f	class:Way
+setTag	libstreetsdatabase/src/OSMEntity.h	/^	void setTag(const std::string& k,const std::string& v){ tags[k]=v; }$/;"	f	class:OSMEntity
+set_draw_mode	libstreetmap/src/graphics.cpp	/^void set_draw_mode(enum e_draw_mode draw_mode) {$/;"	f
+set_keypress_input	libstreetmap/src/graphics.cpp	/^void set_keypress_input(bool enable) {$/;"	f
+set_keypress_input	libstreetmap/src/graphics.cpp	/^void set_keypress_input(bool) {$/;"	f
+set_mouse_move_input	libstreetmap/src/graphics.cpp	/^void set_mouse_move_input(bool enable) {$/;"	f
+set_mouse_move_input	libstreetmap/src/graphics.cpp	/^void set_mouse_move_input(bool) {$/;"	f
+set_visible_world	libstreetmap/src/graphics.cpp	/^void set_visible_world(const t_bound_box& bounds) {$/;"	f
+set_visible_world	libstreetmap/src/graphics.cpp	/^void set_visible_world(float left, float bottom, float right, float top) {$/;"	f
+set_visible_world	libstreetmap/src/graphics.cpp	/^void set_visible_world(float xl, float yt, float xr, float yb) {$/;"	f
+setcolor	libstreetmap/src/graphics.cpp	/^void setcolor(const t_color& c) {$/;"	f
+setcolor	libstreetmap/src/graphics.cpp	/^void setcolor(const t_color& color) {$/;"	f
+setcolor	libstreetmap/src/graphics.cpp	/^void setcolor(int cindex) {$/;"	f
+setcolor	libstreetmap/src/graphics.cpp	/^void setcolor(uint_fast8_t r, uint_fast8_t g, uint_fast8_t b) {$/;"	f
+setcolor_by_name	libstreetmap/src/graphics.cpp	/^void setcolor_by_name(std::string cname) {$/;"	f
+setcolor_by_name	libstreetmap/src/graphics.cpp	/^void setcolor_by_name(string cname) {$/;"	f
+setfontsize	libstreetmap/src/graphics.cpp	/^void setfontsize(int pointsize) {$/;"	f
+setlinestyle	libstreetmap/src/graphics.cpp	/^void setlinestyle(int linestyle) {$/;"	f
+setlinewidth	libstreetmap/src/graphics.cpp	/^void setlinewidth(int linewidth) {$/;"	f
+setpoly	libstreetmap/src/graphics.cpp	/^static void setpoly(int bnum, int xc, int yc, int r, float theta) {$/;"	f	file:
+settextattrs	libstreetmap/src/graphics.cpp	/^void settextattrs(int pointsize, int degrees) {$/;"	f
+settextrotation	libstreetmap/src/graphics.cpp	/^void settextrotation(int degrees) {$/;"	f
+shift_pressed	libstreetmap/src/easygl_constants.h	/^    bool shift_pressed; \/* indicates whether a Shift key was pressed when a mouse button is pressed *\/$/;"	m	struct:__anon5
+speedLimit	libstreetsdatabase/src/IntersectionGraph.h	/^	double speedLimit=0;$/;"	m	struct:__anon1
+statusMessage	libstreetmap/src/graphics.cpp	/^    char statusMessage[BUFSIZE];$/;"	m	struct:t_gl_state	file:
+stow_xmult	libstreetmap/src/graphics.cpp	/^    float stow_xmult, stow_ymult;$/;"	m	struct:__anon11	file:
+stow_ymult	libstreetmap/src/graphics.cpp	/^    float stow_xmult, stow_ymult;$/;"	m	struct:__anon11	file:
+streetID	libstreetsdatabase/src/IntersectionGraph.h	/^	unsigned streetID=0;$/;"	m	struct:__anon1
+streetNameInterID_map	libstreetmap/src/m1.cpp	/^unordered_map<string,unordered_set<unsigned int>> streetNameInterID_map;$/;"	v
+streetNameSegID_map	libstreetmap/src/m1.cpp	/^unordered_map<string,vector<unsigned int>> streetNameSegID_map;$/;"	v
+streetNameStreetID_map	libstreetmap/src/m1.cpp	/^unordered_map<string,pair<unsigned int,double>> streetNameStreetID_map;$/;"	v
+streetSegmentCurvePoints	libstreetsdatabase/src/IntersectionGraph.h	/^	vector<LatLon> 		streetSegmentCurvePoints;$/;"	m	class:IntersectionGraph
+streetSegmentDescriptors	libstreetsdatabase/src/IntersectionGraph.h	/^	vector<Graph::edge_descriptor> streetSegmentDescriptors;$/;"	m	class:IntersectionGraph
+streetSegmentID	libstreetsdatabase/src/IntersectionGraph.h	/^	unsigned streetSegmentID=0;	\/\/ NOTE: not serialized, must be re-derived$/;"	m	struct:__anon1
+szAppName	libstreetmap/src/graphics.cpp	/^static wchar_t szAppName[256], szGraphicsName[] = L"VPR Graphics",$/;"	v	file:
+szButtonsName	libstreetmap/src/graphics.cpp	/^    szStatusName[] = L"VPR Status", szButtonsName[] = L"VPR Buttons";$/;"	v	file:
+szGraphicsName	libstreetmap/src/graphics.cpp	/^static wchar_t szAppName[256], szGraphicsName[] = L"VPR Graphics",$/;"	v	file:
+szStatusName	libstreetmap/src/graphics.cpp	/^    szStatusName[] = L"VPR Status", szButtonsName[] = L"VPR Buttons";$/;"	v	file:
+t_bound_box	libstreetmap/src/graphics.cpp	/^t_bound_box::t_bound_box() :$/;"	f	class:t_bound_box
+t_bound_box	libstreetmap/src/graphics.cpp	/^t_bound_box::t_bound_box(const t_bound_box& src) :$/;"	f	class:t_bound_box
+t_bound_box	libstreetmap/src/graphics.cpp	/^t_bound_box::t_bound_box(const t_point& _bottomleft, const t_point& _topright) :$/;"	f	class:t_bound_box
+t_bound_box	libstreetmap/src/graphics.cpp	/^t_bound_box::t_bound_box(const t_point& _bottomleft, float width, float height) :$/;"	f	class:t_bound_box
+t_bound_box	libstreetmap/src/graphics.cpp	/^t_bound_box::t_bound_box(float _left, float _bottom, float _right, float _top) :$/;"	f	class:t_bound_box
+t_bound_box	libstreetmap/src/graphics.h	/^class t_bound_box {$/;"	c
+t_button	libstreetmap/src/graphics.cpp	/^} t_button;$/;"	t	typeref:struct:__anon9	file:
+t_button_state	libstreetmap/src/graphics.cpp	/^} t_button_state;$/;"	t	typeref:struct:__anon10	file:
+t_button_type	libstreetmap/src/graphics.cpp	/^} t_button_type;$/;"	t	typeref:enum:__anon8	file:
+t_color	libstreetmap/src/graphics.cpp	/^t_color::t_color() :$/;"	f	class:t_color
+t_color	libstreetmap/src/graphics.cpp	/^t_color::t_color(color_types src) {$/;"	f	class:t_color
+t_color	libstreetmap/src/graphics.cpp	/^t_color::t_color(const t_color& src) :$/;"	f	class:t_color
+t_color	libstreetmap/src/graphics.cpp	/^t_color::t_color(uint_fast8_t r, uint_fast8_t g, uint_fast8_t b) :$/;"	f	class:t_color
+t_color	libstreetmap/src/graphics.h	/^struct t_color {$/;"	s
+t_display_type	libstreetmap/src/graphics.cpp	/^} t_display_type;$/;"	t	typeref:enum:__anon7	file:
+t_event_buttonPressed	libstreetmap/src/easygl_constants.h	/^} t_event_buttonPressed; $/;"	t	typeref:struct:__anon5
+t_gl_state	libstreetmap/src/graphics.cpp	/^    t_gl_state()$/;"	f	struct:t_gl_state
+t_gl_state	libstreetmap/src/graphics.cpp	/^struct t_gl_state {$/;"	s	file:
+t_panning_state	libstreetmap/src/graphics.cpp	/^} t_panning_state;$/;"	t	typeref:struct:__anon12	file:
+t_point	libstreetmap/src/graphics.cpp	/^t_point::t_point() : x(0), y(0) {$/;"	f	class:t_point
+t_point	libstreetmap/src/graphics.cpp	/^t_point::t_point(const t_point& src) :$/;"	f	class:t_point
+t_point	libstreetmap/src/graphics.cpp	/^t_point::t_point(float _x, float _y) : x(_x), y(_y) {$/;"	f	class:t_point
+t_point	libstreetmap/src/graphics.h	/^struct t_point {$/;"	s
+t_report	libstreetmap/src/graphics.h	/^} t_report;$/;"	t	typeref:struct:__anon4
+t_transform_coordinates	libstreetmap/src/graphics.cpp	/^} t_transform_coordinates;$/;"	t	typeref:struct:__anon11	file:
+t_win32_state	libstreetmap/src/graphics.cpp	/^struct t_win32_state {$/;"	s	file:
+t_window_button_state	libstreetmap/src/graphics.cpp	/^} t_window_button_state;$/;"	t	typeref:enum:__anon6	file:
+t_x11_state	libstreetmap/src/graphics.cpp	/^struct t_x11_state {$/;"	s	file:
+tag_const_iterator	libstreetsdatabase/src/OSMEntity.h	/^	typedef std::map<std::string,std::string>::const_iterator tag_const_iterator;$/;"	t	class:OSMEntity
+tags	libstreetsdatabase/src/IntersectionGraph.h	/^		vector<string> tags;$/;"	m	class:IntersectionGraph::POIFilterByAttributes
+tags	libstreetsdatabase/src/OSMEntity.h	/^	std::map<std::string,std::string> tags;$/;"	m	class:OSMEntity
+tags_begin	libstreetsdatabase/src/OSMEntity.h	/^	tag_const_iterator tags_begin() const { return tags.begin(); }$/;"	f	class:OSMEntity
+tags_end	libstreetsdatabase/src/OSMEntity.h	/^	tag_const_iterator tags_end()   const { return tags.end(); }$/;"	f	class:OSMEntity
+take_first	libstreetsdatabase/src/IntersectionGraph.cpp	/^template<typename A,typename B>const B& take_first (const std::pair<A,B>& p){ return p.first; }$/;"	f
+take_second	libstreetsdatabase/src/IntersectionGraph.cpp	/^template<typename A,typename B>const B& take_second(const std::pair<A,B>& p){ return p.second; }$/;"	f
+testFeatureClosed	libstreetmap/src/m2.cpp	/^bool testFeatureClosed(unsigned featureID, unsigned featurePC) {$/;"	f
+text	libstreetmap/src/graphics.cpp	/^    char text[BUTTON_TEXT_LEN];$/;"	m	struct:__anon9	file:
+textarea	libstreetmap/src/graphics.cpp	/^    Window toplevel, menu, textarea;$/;"	m	struct:t_x11_state	file:
+textarea_draw	libstreetmap/src/graphics.cpp	/^    XftDraw *toplevel_draw, *menu_draw, *textarea_draw;$/;"	m	struct:t_x11_state	file:
+to	libstreetsdatabase/src/StreetSegmentEnds.h	/^    unsigned long to;$/;"	m	struct:StreetSegmentEnds
+top	libstreetmap/src/graphics.cpp	/^const float& t_bound_box::top() const {$/;"	f	class:t_bound_box
+top	libstreetmap/src/graphics.cpp	/^float& t_bound_box::top() {$/;"	f	class:t_bound_box
+top_height	libstreetmap/src/graphics.cpp	/^    int top_width, top_height;$/;"	m	struct:__anon11	file:
+top_height	libstreetmap/src/graphics.h	/^    int top_width, top_height;$/;"	m	struct:__anon4
+top_right	libstreetmap/src/graphics.cpp	/^const t_point& t_bound_box::top_right() const {$/;"	f	class:t_bound_box
+top_right	libstreetmap/src/graphics.cpp	/^t_point& t_bound_box::top_right() {$/;"	f	class:t_bound_box
+top_width	libstreetmap/src/graphics.cpp	/^    int top_width, top_height;$/;"	m	struct:__anon11	file:
+top_width	libstreetmap/src/graphics.h	/^    int top_width, top_height;$/;"	m	struct:__anon4
+toplevel	libstreetmap/src/graphics.cpp	/^    Window toplevel, menu, textarea;$/;"	m	struct:t_x11_state	file:
+toplevel_draw	libstreetmap/src/graphics.cpp	/^    XftDraw *toplevel_draw, *menu_draw, *textarea_draw;$/;"	m	struct:t_x11_state	file:
+topright	libstreetmap/src/graphics.h	/^    t_point topright;$/;"	m	class:t_bound_box
+trans_coord	libstreetmap/src/graphics.cpp	/^static t_transform_coordinates trans_coord;$/;"	v	file:
+translate_down	libstreetmap/src/graphics.cpp	/^translate_down(void (*drawscreen) (void)) {$/;"	f	file:
+translate_left	libstreetmap/src/graphics.cpp	/^translate_left(void (*drawscreen) (void)) {$/;"	f	file:
+translate_right	libstreetmap/src/graphics.cpp	/^translate_right(void (*drawscreen) (void)) {$/;"	f	file:
+translate_up	libstreetmap/src/graphics.cpp	/^translate_up(void (*drawscreen) (void)) {$/;"	f	file:
+type	libstreetmap/src/graphics.cpp	/^    t_button_type type;$/;"	m	struct:__anon9	file:
+unmap_button	libstreetmap/src/graphics.cpp	/^static void unmap_button(int bnum) {$/;"	f	file:
+update_brushes	libstreetmap/src/graphics.cpp	/^static void update_brushes() {$/;"	f	file:
+update_message	libstreetmap/src/graphics.cpp	/^update_message(const string& msg) {$/;"	f
+update_message	libstreetmap/src/graphics.cpp	/^void update_message(const std::string& msg) {$/;"	f
+update_ps_transform	libstreetmap/src/graphics.cpp	/^update_ps_transform(void) {$/;"	f	file:
+update_transform	libstreetmap/src/graphics.cpp	/^update_transform(void) {$/;"	f	file:
+update_win	libstreetmap/src/graphics.cpp	/^update_win(int x[2], int y[2], void (*drawscreen)(void)) {$/;"	f	file:
+val	libstreetsdatabase/src/OSMDatabase.h	/^	Result val;$/;"	m	class:ConstFn
+visual_info	libstreetmap/src/graphics.cpp	/^    XVisualInfo visual_info;$/;"	m	struct:t_x11_state	file:
+wayrefs	libstreetsdatabase/src/Relation.h	/^	vector<pair<unsigned long long,string>> wayrefs;$/;"	m	class:Relation
+ways	libstreetsdatabase/src/OSMDatabase.h	/^	std::vector<Way>  ways;$/;"	m	class:OSMDatabase
+ways_map	libstreetsdatabase/src/OSMDatabase.h	/^	std::map<unsigned long long,unsigned> ways_map;$/;"	m	class:OSMDatabase
+ways_mapped	libstreetsdatabase/src/OSMDatabase.h	/^	std::vector<Way> ways_mapped;$/;"	m	class:OSMDatabase
+width	libstreetmap/src/graphics.cpp	/^    int width;$/;"	m	struct:__anon9	file:
+win	libstreetmap/src/graphics.cpp	/^    Window win;$/;"	m	struct:__anon9	file:
+win32_GraphicsWND_handle_WM_LRBUTTONDOWN	libstreetmap/src/graphics.cpp	/^static void win32_GraphicsWND_handle_WM_LRBUTTONDOWN(UINT message, WPARAM wParam, LPARAM lParam,$/;"	f	file:
+win32_GraphicsWND_handle_WM_MBUTTONDOWN	libstreetmap/src/graphics.cpp	/^win32_GraphicsWND_handle_WM_MBUTTONDOWN(HWND hwnd, UINT message, WPARAM wParam, LPARAM lParam) {$/;"	f	file:
+win32_GraphicsWND_handle_WM_MOUSEMOVE	libstreetmap/src/graphics.cpp	/^win32_GraphicsWND_handle_WM_MOUSEMOVE(LPARAM lParam, int &X, int &Y, RECT &oldAdjustRect) {$/;"	f	file:
+win32_GraphicsWND_handle_WM_PAINT	libstreetmap/src/graphics.cpp	/^win32_GraphicsWND_handle_WM_PAINT(HWND hwnd, PAINTSTRUCT &ps, HPEN &hDotPen, RECT &oldAdjustRect) {$/;"	f	file:
+win32_drain_message_queue	libstreetmap/src/graphics.cpp	/^static void win32_drain_message_queue() {$/;"	f	file:
+win32_drawcurve	libstreetmap/src/graphics.cpp	/^void win32_drawcurve(t_point *points, int npoints) {$/;"	f
+win32_drawcurve	libstreetmap/src/graphics.cpp	/^void win32_drawcurve(t_point *points,$/;"	f
+win32_drawscreen_ptr	libstreetmap/src/graphics.cpp	/^static void (*win32_drawscreen_ptr)(void);$/;"	v	file:
+win32_fillcurve	libstreetmap/src/graphics.cpp	/^void win32_fillcurve(t_point *points, int npoints) {$/;"	f
+win32_fillcurve	libstreetmap/src/graphics.cpp	/^void win32_fillcurve(t_point *points,$/;"	f
+win32_handle_button_info	libstreetmap/src/graphics.cpp	/^static void win32_handle_button_info(t_event_buttonPressed &button_info,$/;"	f	file:
+win32_handle_mousewheel_zooming	libstreetmap/src/graphics.cpp	/^static void win32_handle_mousewheel_zooming(WPARAM wParam, LPARAM lParam, bool draw_screen) {$/;"	f	file:
+win32_init_graphics	libstreetmap/src/graphics.cpp	/^win32_init_graphics(const char *window_name) {$/;"	f	file:
+win32_invalidate_screen	libstreetmap/src/graphics.cpp	/^static void win32_invalidate_screen(void) {$/;"	f	file:
+win32_keypress_ptr	libstreetmap/src/graphics.cpp	/^static void (*win32_keypress_ptr)(char entered_char);$/;"	v	file:
+win32_line_styles	libstreetmap/src/graphics.cpp	/^static const int win32_line_styles[2] = {PS_SOLID, PS_DASH};$/;"	v	file:
+win32_mouseclick_ptr	libstreetmap/src/graphics.cpp	/^static void (*win32_mouseclick_ptr)(float x, float y, t_event_buttonPressed button_info);$/;"	v	file:
+win32_mousemove_ptr	libstreetmap/src/graphics.cpp	/^static void (*win32_mousemove_ptr)(float x, float y);$/;"	v	file:
+win32_reset_state	libstreetmap/src/graphics.cpp	/^static void win32_reset_state() {$/;"	f	file:
+win32_state	libstreetmap/src/graphics.cpp	/^static t_win32_state win32_state = {false, WINDOW_DEACTIVATED, -1};$/;"	v	file:
+windowAdjustFlag	libstreetmap/src/graphics.cpp	/^    t_window_button_state windowAdjustFlag;$/;"	m	struct:t_win32_state	file:
+world_to_scrn	libstreetmap/src/graphics.cpp	/^static t_bound_box world_to_scrn(const t_bound_box& box) {$/;"	f	file:
+world_to_scrn	libstreetmap/src/graphics.cpp	/^static t_point world_to_scrn(const t_point& point) {$/;"	f	file:
+wtos_xmult	libstreetmap/src/graphics.cpp	/^    float wtos_xmult, wtos_ymult;$/;"	m	struct:__anon11	file:
+wtos_ymult	libstreetmap/src/graphics.cpp	/^    float wtos_xmult, wtos_ymult;$/;"	m	struct:__anon11	file:
+x	libstreetmap/src/graphics.h	/^    float x;$/;"	m	struct:t_point
+x11_build_textarea	libstreetmap/src/graphics.cpp	/^static void x11_build_textarea(void) {$/;"	f	file:
+x11_convert_to_xcolor	libstreetmap/src/graphics.cpp	/^static unsigned long x11_convert_to_xcolor (t_color rgb_color) {$/;"	f	file:
+x11_drawbut	libstreetmap/src/graphics.cpp	/^static void x11_drawbut(int bnum) {$/;"	f	file:
+x11_drawmenu	libstreetmap/src/graphics.cpp	/^static void x11_drawmenu(void) {$/;"	f	file:
+x11_drop_redundant_panning	libstreetmap/src/graphics.cpp	/^static bool x11_drop_redundant_panning (XEvent report, $/;"	f	file:
+x11_event_loop	libstreetmap/src/graphics.cpp	/^x11_event_loop(void (*act_on_mousebutton)(float x, float y, t_event_buttonPressed button_info),$/;"	f	file:
+x11_handle_button_info	libstreetmap/src/graphics.cpp	/^static void x11_handle_button_info(t_event_buttonPressed *button_info,$/;"	f	file:
+x11_handle_configure_notify	libstreetmap/src/graphics.cpp	/^static void x11_handle_configure_notify(XEvent report, void (*drawscreen) (void)) {$/;"	f	file:
+x11_handle_expose	libstreetmap/src/graphics.cpp	/^static void x11_handle_expose(XEvent report, void (*drawscreen) (void)) {$/;"	f	file:
+x11_init_graphics	libstreetmap/src/graphics.cpp	/^static void x11_init_graphics(const char *window_name) {$/;"	f	file:
+x11_redraw_all_if_needed	libstreetmap/src/graphics.cpp	/^static void x11_redraw_all_if_needed (void (*drawscreen) (void)) {$/;"	f	file:
+x11_state	libstreetmap/src/graphics.cpp	/^t_x11_state x11_state;$/;"	v
+x11_test_if_exposed	libstreetmap/src/graphics.cpp	/^static Bool x11_test_if_exposed(Display *disp, XEvent *event_ptr, XPointer dummy) {$/;"	f	file:
+x11_turn_on_off	libstreetmap/src/graphics.cpp	/^static void x11_turn_on_off(int pressed) {$/;"	f	file:
+x11_which_button	libstreetmap/src/graphics.cpp	/^static int x11_which_button(Window win) {$/;"	f	file:
+xft_currentcolor	libstreetmap/src/graphics.cpp	/^    XftColor xft_currentcolor;$/;"	m	struct:t_x11_state	file:
+xft_menutextcolor	libstreetmap/src/graphics.cpp	/^    XftColor xft_menutextcolor;$/;"	m	struct:t_x11_state	file:
+xleft	libstreetmap/src/graphics.cpp	/^    float xleft, xright, ytop, ybot;$/;"	m	struct:__anon11	file:
+xleft	libstreetmap/src/graphics.cpp	/^    int xleft;$/;"	m	struct:__anon9	file:
+xleft	libstreetmap/src/graphics.h	/^    float xleft, xright, ytop, ybot;$/;"	m	struct:__anon4
+xmult	libstreetmap/src/graphics.h	/^    float xmult, ymult;$/;"	m	struct:__anon4
+xright	libstreetmap/src/graphics.cpp	/^    float xleft, xright, ytop, ybot;$/;"	m	struct:__anon11	file:
+xright	libstreetmap/src/graphics.h	/^    float xleft, xright, ytop, ybot;$/;"	m	struct:__anon4
+xscrn_to_world	libstreetmap/src/graphics.cpp	/^static float xscrn_to_world(int x) {$/;"	f	file:
+xworld_to_post	libstreetmap/src/graphics.cpp	/^static float xworld_to_post(float worldx) {$/;"	f	file:
+xworld_to_scrn	libstreetmap/src/graphics.cpp	/^static int xworld_to_scrn(float worldx) {$/;"	f	file:
+xworld_to_scrn_fl	libstreetmap/src/graphics.cpp	/^static float xworld_to_scrn_fl(float worldx) {$/;"	f	file:
+y	libstreetmap/src/graphics.h	/^    float y;$/;"	m	struct:t_point
+ybot	libstreetmap/src/graphics.cpp	/^    float xleft, xright, ytop, ybot;$/;"	m	struct:__anon11	file:
+ybot	libstreetmap/src/graphics.h	/^    float xleft, xright, ytop, ybot;$/;"	m	struct:__anon4
+ymult	libstreetmap/src/graphics.h	/^    float xmult, ymult;$/;"	m	struct:__anon4
+yscrn_to_world	libstreetmap/src/graphics.cpp	/^static float yscrn_to_world(int y) {$/;"	f	file:
+ytop	libstreetmap/src/graphics.cpp	/^    float xleft, xright, ytop, ybot;$/;"	m	struct:__anon11	file:
+ytop	libstreetmap/src/graphics.cpp	/^    int ytop;$/;"	m	struct:__anon9	file:
+ytop	libstreetmap/src/graphics.h	/^    float xleft, xright, ytop, ybot;$/;"	m	struct:__anon4
+yworld_to_post	libstreetmap/src/graphics.cpp	/^static float yworld_to_post(float worldy) {$/;"	f	file:
+yworld_to_scrn	libstreetmap/src/graphics.cpp	/^static int yworld_to_scrn(float worldy) {$/;"	f	file:
+yworld_to_scrn_fl	libstreetmap/src/graphics.cpp	/^static float yworld_to_scrn_fl(float worldy) {$/;"	f	file:
+zoom_fit	libstreetmap/src/graphics.cpp	/^zoom_fit(void (*drawscreen) (void)) {$/;"	f	file:
+zoom_in	libstreetmap/src/graphics.cpp	/^zoom_in(void (*drawscreen) (void)) {$/;"	f	file:
+zoom_out	libstreetmap/src/graphics.cpp	/^zoom_out(void (*drawscreen) (void)) {$/;"	f	file:
+~MapFixture	libstreetmap/tests/valgrind_driver.cpp	/^    ~MapFixture() {$/;"	f	struct:MapFixture
+~Map_Fixture	libstreetmap/tests/m1_unittests.cpp	/^	~Map_Fixture() {$/;"	f	struct:Map_Fixture
+~OSMEntity	libstreetsdatabase/src/OSMEntity.h	/^	virtual ~OSMEntity(){}$/;"	f	class:OSMEntity

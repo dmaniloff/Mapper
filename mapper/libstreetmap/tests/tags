@@ -1,0 +1,42 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+MAX_VEC_PRINT	unit_test_util.h	8;"	d
+MapFixture	valgrind_driver.cpp	/^    MapFixture() {$/;"	f	struct:MapFixture
+MapFixture	valgrind_driver.cpp	/^struct MapFixture {$/;"	s	file:
+Map_Fixture	m1_unittests.cpp	/^	Map_Fixture() {$/;"	f	struct:Map_Fixture
+Map_Fixture	m1_unittests.cpp	/^struct Map_Fixture {$/;"	s	file:
+SUITE	m1_unittests.cpp	/^SUITE(M1_Public_Functionality_Tests) {$/;"	f
+SUITE	m3_functionality_unittests.cpp	/^SUITE(M3_Intersection_to_Intersection_Path_Legality) {$/;"	f
+SUITE	m3_functionality_unittests.cpp	/^SUITE(M3_Intersection_to_Intersection_Path_Optimality) {$/;"	f
+SUITE	m3_functionality_unittests.cpp	/^SUITE(M3_Intersection_to_POI_Path_Legality) {$/;"	f
+SUITE	m3_functionality_unittests.cpp	/^SUITE(M3_Intersection_to_POI_Path_Optimality) {$/;"	f
+SUITE	m3_functionality_unittests.cpp	/^SUITE(M3_Path_Cost) {$/;"	f
+SUITE	m3_performance_inter_inter_hard_unittests.cpp	/^SUITE(M3_Performance_Hard_Intersection_Intersection) {$/;"	f
+SUITE	m3_performance_inter_inter_moderate_unittests.cpp	/^SUITE(M3_Performance_Moderate_Intersection_Intersection) {$/;"	f
+SUITE	m3_performance_inter_poi_hard_unittests.cpp	/^SUITE(M3_Performance_Hard_Inter_POI) {$/;"	f
+SUITE	m3_performance_inter_poi_moderate_unittests.cpp	/^SUITE(M3_Performance_Moderate_Inter_POI) {$/;"	f
+TEST_FIXTURE	valgrind_driver.cpp	/^TEST_FIXTURE(MapFixture, ExerciseFunctions) {$/;"	f
+UNIT_TEST_UTIL_HPP	unit_test_util.h	2;"	d
+absolute_error	unit_test_util.h	/^float absolute_error(T A, T B) {$/;"	f
+ece297test	path_verify.cpp	/^namespace ece297test {$/;"	n	file:
+ece297test	path_verify.h	/^namespace ece297test {$/;"	n
+main	test_driver_stdout.cpp	/^int main(int argc, char** argv) {$/;"	f
+main	tester.cpp	/^int main(int argc, char** argv) {$/;"	f
+main	valgrind_driver.cpp	/^int main(int argc, char** argv) {$/;"	f
+map_name	valgrind_driver.cpp	/^std::string map_name = "\/cad2\/ece297s\/public\/maps\/saint_helena.bin";$/;"	v
+operator <<	unit_test_util.h	/^std::ostream& operator<<(std::ostream& os, const std::vector<T>& vec) {$/;"	f
+path_is_legal	path_verify.cpp	/^bool path_is_legal(unsigned start_intersection, unsigned end_intersection, const std::vector<unsigned>& path) {$/;"	f	namespace:ece297test
+rand_intersection	m1_unittests.cpp	/^	std::uniform_int_distribution<unsigned> rand_intersection;$/;"	m	struct:Map_Fixture	file:
+rand_intersection	valgrind_driver.cpp	/^	std::uniform_int_distribution<unsigned> rand_intersection;$/;"	m	struct:MapFixture	file:
+rand_poi	valgrind_driver.cpp	/^	std::uniform_int_distribution<unsigned> rand_poi;$/;"	m	struct:MapFixture	file:
+rand_segment	m1_unittests.cpp	/^	std::uniform_int_distribution<unsigned> rand_segment;$/;"	m	struct:Map_Fixture	file:
+rand_street	m1_unittests.cpp	/^	std::uniform_int_distribution<unsigned> rand_street;$/;"	m	struct:Map_Fixture	file:
+relative_error	unit_test_util.h	/^float relative_error(T A, T B) {$/;"	f
+rng	m1_unittests.cpp	/^	std::minstd_rand rng;$/;"	m	struct:Map_Fixture	file:
+rng	valgrind_driver.cpp	/^	std::minstd_rand rng;$/;"	m	struct:MapFixture	file:
+~MapFixture	valgrind_driver.cpp	/^    ~MapFixture() {$/;"	f	struct:MapFixture
+~Map_Fixture	m1_unittests.cpp	/^	~Map_Fixture() {$/;"	f	struct:Map_Fixture

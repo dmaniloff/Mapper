@@ -1,0 +1,207 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Backward	IntersectionGraph.cpp	/^typedef enum { Bidirectional, Forward, Backward } StreetDirection;$/;"	e	enum:__anon3	file:
+Bidirectional	IntersectionGraph.cpp	/^typedef enum { Bidirectional, Forward, Backward } StreetDirection;$/;"	e	enum:__anon3	file:
+ConstFn	OSMDatabase.h	/^	ConstFn(const Result& val_) : val(val_){}$/;"	f	class:ConstFn
+ConstFn	OSMDatabase.h	/^template<class Result>class ConstFn {$/;"	c
+CostType	IntersectionGraph.h	/^		typedef double CostType;$/;"	t	class:IntersectionGraph::distance_heuristic
+Exclude	IntersectionGraph.cpp	/^typedef enum { Include, Exclude } HighwayAction;$/;"	e	enum:__anon2	file:
+Forward	IntersectionGraph.cpp	/^typedef enum { Bidirectional, Forward, Backward } StreetDirection;$/;"	e	enum:__anon3	file:
+G	IntersectionGraph.h	/^	Graph G;$/;"	m	class:IntersectionGraph
+Graph	IntersectionGraph.h	/^			vecS> Graph;$/;"	t	class:IntersectionGraph
+HighwayAction	IntersectionGraph.cpp	/^typedef enum { Include, Exclude } HighwayAction;$/;"	t	typeref:enum:__anon2	file:
+IDEqual	OSMEntity.h	/^	static bool IDEqual(const OSMEntity& a,const OSMEntity& b){ return a.id==b.id; }$/;"	f	class:OSMEntity
+IDOrder	OSMEntity.h	/^	static bool IDOrder(const OSMEntity& a,const OSMEntity& b){ return a.id<b.id; }$/;"	f	class:OSMEntity
+IG	IntersectionGraph.h	/^		const IntersectionGraph& IG;$/;"	m	class:IntersectionGraph::distance_heuristic
+Include	IntersectionGraph.cpp	/^typedef enum { Include, Exclude } HighwayAction;$/;"	e	enum:__anon2	file:
+IntersectionGraph	IntersectionGraph.cpp	/^IntersectionGraph::IntersectionGraph(const OSMDatabase& osmdb,const vector<pair<unsigned long long,LatLon>>& poly_append)$/;"	f	class:IntersectionGraph
+IntersectionGraph	IntersectionGraph.h	/^	IntersectionGraph(){};$/;"	f	class:IntersectionGraph
+IntersectionGraph	IntersectionGraph.h	/^class IntersectionGraph {$/;"	c
+IntersectionProperties	IntersectionGraph.h	/^	IntersectionProperties(){}$/;"	f	struct:IntersectionProperties
+IntersectionProperties	IntersectionGraph.h	/^	IntersectionProperties(const Node& n) : osmNodeID(n.getID()),pos{n.getLat(),n.getLon()}{}$/;"	f	struct:IntersectionProperties
+IntersectionProperties	IntersectionGraph.h	/^typedef struct IntersectionProperties {$/;"	s
+IntersectionProperties	IntersectionGraph.h	/^} IntersectionProperties;$/;"	t	typeref:struct:IntersectionProperties
+LatLon	LatLon.h	/^    LatLon(double lat_,double lon_) : lat(lat_),lon(lon_){}$/;"	f	struct:LatLon
+LatLon	LatLon.h	/^    LatLon(std::pair<double,double> p) : lat(p.first),lon(p.second){}$/;"	f	struct:LatLon
+LatLon	LatLon.h	/^    explicit LatLon(){} $/;"	f	struct:LatLon
+LatLon	LatLon.h	/^struct LatLon {$/;"	s
+NaturalFeature	Way.h	/^	NaturalFeature() : Way(){}$/;"	f	class:NaturalFeature
+NaturalFeature	Way.h	/^	NaturalFeature(const Way& w) : Way(w){}$/;"	f	class:NaturalFeature
+NaturalFeature	Way.h	/^class NaturalFeature : public Way {$/;"	c
+Node	Node.h	/^	Node(unsigned long long id_=0,double lat_=NAN,double lon_=NAN) : OSMEntity(id_),lat(lat_),lon(lon_){}$/;"	f	class:Node
+Node	Node.h	/^class Node : public OSMEntity {$/;"	c
+OSMDatabase	OSMDatabase.cpp	/^OSMDatabase::OSMDatabase(const vector<Node>& nodes_,const vector<Way>& ways_,const vector<Relation>& relations_) :$/;"	f	class:OSMDatabase
+OSMDatabase	OSMDatabase.h	/^	OSMDatabase(){}$/;"	f	class:OSMDatabase
+OSMDatabase	OSMDatabase.h	/^class OSMDatabase {$/;"	c
+OSMEntity	OSMEntity.h	/^	OSMEntity(unsigned long long id_) : id(id_){}$/;"	f	class:OSMEntity
+OSMEntity	OSMEntity.h	/^class OSMEntity {$/;"	c
+POIFilterByAttributes	IntersectionGraph.h	/^		POIFilterByAttributes(const vector<string>& tags_) : tags(tags_){}$/;"	f	class:IntersectionGraph::POIFilterByAttributes
+POIFilterByAttributes	IntersectionGraph.h	/^	class POIFilterByAttributes {$/;"	c	class:IntersectionGraph
+POIProperties	IntersectionGraph.h	/^	POIProperties(){}$/;"	f	struct:POIProperties
+POIProperties	IntersectionGraph.h	/^	POIProperties(string name_,unsigned long long osmNodeID_,LatLon pos_) : name(name_),osmNodeID(osmNodeID_),pos(pos_){}$/;"	f	struct:POIProperties
+POIProperties	IntersectionGraph.h	/^typedef struct POIProperties {$/;"	s
+POIProperties	IntersectionGraph.h	/^} POIProperties;$/;"	t	typeref:struct:POIProperties
+Relation	Relation.h	/^	Relation(unsigned long long id_) : OSMEntity(id_){}$/;"	f	class:Relation
+Relation	Relation.h	/^class Relation : public OSMEntity {$/;"	c
+StreetDirection	IntersectionGraph.cpp	/^typedef enum { Bidirectional, Forward, Backward } StreetDirection;$/;"	t	typeref:enum:__anon3	file:
+StreetProperties	IntersectionGraph.h	/^	StreetProperties(unsigned long long osmWayID_=0,string name_="(unknown)") : name(name_),osmWayID(osmWayID_){};$/;"	f	struct:StreetProperties
+StreetProperties	IntersectionGraph.h	/^typedef struct StreetProperties {$/;"	s
+StreetProperties	IntersectionGraph.h	/^} StreetProperties;$/;"	t	typeref:struct:StreetProperties
+StreetSegmentEnds	StreetSegmentEnds.h	/^struct StreetSegmentEnds {$/;"	s
+StreetSegmentProperties	IntersectionGraph.h	/^} StreetSegmentProperties;$/;"	t	typeref:struct:__anon1
+Vertex	IntersectionGraph.h	/^		typedef Graph::vertex_descriptor Vertex;$/;"	t	class:IntersectionGraph::distance_heuristic
+Way	Way.h	/^	Way(unsigned long long id_=0) : OSMEntity(id_){}$/;"	f	class:Way
+Way	Way.h	/^class Way : public OSMEntity {$/;"	c
+addNode	Way.h	/^	void addNode(unsigned long long id_){ ndrefs.push_back(id_); }$/;"	f	class:Way
+add_node_ref	Relation.h	/^	void add_node_ref(unsigned long long id,const string& role){ ndrefs.push_back(make_pair(id,role)); }$/;"	f	class:Relation
+add_rel_ref	Relation.h	/^	void add_rel_ref(unsigned long long id,const string& role){ relrefs.push_back(make_pair(id,role)); }$/;"	f	class:Relation
+add_street_if_new	IntersectionGraph.cpp	/^unsigned IntersectionGraph::add_street_if_new(const Way& w)$/;"	f	class:IntersectionGraph
+add_vertex_if_new	IntersectionGraph.cpp	/^IntersectionGraph::Graph::vertex_descriptor IntersectionGraph::add_vertex_if_new(const Node& node)$/;"	f	class:IntersectionGraph
+add_way_ref	Relation.h	/^	void add_way_ref(unsigned long long id,const string& role){ wayrefs.push_back(make_pair(id,role)); }$/;"	f	class:Relation
+astar_visitor_goal	IntersectionGraph.h	/^	astar_visitor_goal(Vertex goal_) : goal(goal_){}$/;"	f	class:astar_visitor_goal
+astar_visitor_goal	IntersectionGraph.h	/^template<class Vertex>class astar_visitor_goal : public boost::default_astar_visitor {$/;"	c
+closeStreetDatabase	StreetsDatabaseAPI.cpp	/^void closeStreetDatabase()$/;"	f
+cnodes	Relation.h	/^	const vector<pair<unsigned long long,string>>& cnodes() const { return ndrefs; }$/;"	f	class:Relation
+coords	Way.h	/^	std::vector<LatLon> coords;$/;"	m	class:NaturalFeature
+countWays	OSMDatabase.h	/^	unsigned long long countWays() const { return ways_mapped.size(); }$/;"	f	class:OSMDatabase
+crels	Relation.h	/^	const vector<pair<unsigned long long,string>>& crels() const { return relrefs; }$/;"	f	class:Relation
+curvePointEnd	IntersectionGraph.h	/^	unsigned curvePointEnd=0;$/;"	m	struct:__anon1
+curvePointStart	IntersectionGraph.h	/^	unsigned curvePointStart=0;$/;"	m	struct:__anon1
+cways	Relation.h	/^	const vector<pair<unsigned long long,string>>& cways() const { return wayrefs; }$/;"	f	class:Relation
+distance_heuristic	IntersectionGraph.h	/^		distance_heuristic(const IntersectionGraph& IG_,Graph::vertex_descriptor v_) : IG(IG_),pos(IG_.G[v_].pos){ }$/;"	f	class:IntersectionGraph::distance_heuristic
+distance_heuristic	IntersectionGraph.h	/^	class distance_heuristic {$/;"	c	class:IntersectionGraph
+examine_vertex	IntersectionGraph.h	/^	template<class Graph>void examine_vertex(Vertex u,Graph& g)$/;"	f	class:astar_visitor_goal
+features	IntersectionGraph.h	/^	vector<NaturalFeature> features;$/;"	m	class:IntersectionGraph
+found_goal	IntersectionGraph.h	/^struct found_goal {};$/;"	s
+from	StreetSegmentEnds.h	/^    unsigned long from;$/;"	m	struct:StreetSegmentEnds
+getFeatureAttribute	IntersectionGraph.h	/^	string getFeatureAttribute(unsigned id,const std::string& attr) const$/;"	f	class:IntersectionGraph
+getFeatureAttribute	StreetsDatabaseAPI.cpp	/^string getFeatureAttribute(unsigned id,const std::string& attr)$/;"	f
+getFeatureCount	IntersectionGraph.h	/^	unsigned getFeatureCount() const { return features.size(); }$/;"	f	class:IntersectionGraph
+getFeatureCount	StreetsDatabaseAPI.cpp	/^unsigned getFeatureCount()$/;"	f
+getFeaturePoint	IntersectionGraph.h	/^	LatLon getFeaturePoint(unsigned featureID,unsigned pointIdx) const { return features[featureID].coords[pointIdx]; }$/;"	f	class:IntersectionGraph
+getFeaturePoint	StreetsDatabaseAPI.cpp	/^LatLon getFeaturePoint(unsigned featureID,unsigned pointIdx)$/;"	f
+getFeaturePointCount	IntersectionGraph.h	/^	unsigned getFeaturePointCount(unsigned featureID) const { return features[featureID].coords.size(); }$/;"	f	class:IntersectionGraph
+getFeaturePointCount	StreetsDatabaseAPI.cpp	/^unsigned getFeaturePointCount(unsigned id)$/;"	f
+getID	OSMEntity.h	/^	unsigned long long getID() const { return id; }$/;"	f	class:OSMEntity
+getIntersectionName	IntersectionGraph.cpp	/^string IntersectionGraph::getIntersectionName(unsigned intersectionID)$/;"	f	class:IntersectionGraph
+getIntersectionName	StreetsDatabaseAPI.cpp	/^string getIntersectionName(unsigned intersectionID)$/;"	f
+getIntersectionPosition	IntersectionGraph.h	/^	LatLon getIntersectionPosition(unsigned intersectionID) const { return G[intersectionID].pos; }$/;"	f	class:IntersectionGraph
+getIntersectionPosition	StreetsDatabaseAPI.cpp	/^LatLon getIntersectionPosition(unsigned intersectionID)$/;"	f
+getIntersectionStreetSegment	StreetsDatabaseAPI.cpp	/^unsigned getIntersectionStreetSegment(unsigned intersectionID,unsigned idx)$/;"	f
+getIntersectionStreetSegmentCount	StreetsDatabaseAPI.cpp	/^unsigned getIntersectionStreetSegmentCount(unsigned intersectionID)$/;"	f
+getLat	Node.h	/^	double getLat() const { return lat; }$/;"	f	class:Node
+getLatLon	Node.h	/^	std::pair<double,double> getLatLon() const { return std::make_pair(lat,lon); }$/;"	f	class:Node
+getLon	Node.h	/^	double getLon() const { return lon; }$/;"	f	class:Node
+getNRefs	Way.h	/^	unsigned getNRefs() const { return ndrefs.size(); }$/;"	f	class:Way
+getNodeAttributeKeys	OSMDatabase.h	/^	std::vector<std::string> getNodeAttributeKeys() const {$/;"	f	class:OSMDatabase
+getNodeRefCounts	OSMDatabase.cpp	/^pair<unsigned,map<unsigned long long,unsigned>> OSMDatabase::getNodeRefCounts() const$/;"	f	class:OSMDatabase
+getNodeRefHist	OSMDatabase.cpp	/^map<unsigned,unsigned> OSMDatabase::getNodeRefHist() const$/;"	f	class:OSMDatabase
+getNumberOfIntersections	IntersectionGraph.h	/^	unsigned long long getNumberOfIntersections() const  { return num_vertices(G); }$/;"	f	class:IntersectionGraph
+getNumberOfIntersections	StreetsDatabaseAPI.cpp	/^unsigned long long getNumberOfIntersections()$/;"	f
+getNumberOfPointsOfInterest	IntersectionGraph.h	/^	unsigned long long getNumberOfPointsOfInterest() const { return pointsOfInterest.size(); }$/;"	f	class:IntersectionGraph
+getNumberOfPointsOfInterest	StreetsDatabaseAPI.cpp	/^unsigned long long getNumberOfPointsOfInterest()$/;"	f
+getNumberOfStreetSegments	IntersectionGraph.h	/^	unsigned long long getNumberOfStreetSegments() const { return num_edges(G); }$/;"	f	class:IntersectionGraph
+getNumberOfStreetSegments	StreetsDatabaseAPI.cpp	/^unsigned long long getNumberOfStreetSegments()$/;"	f
+getNumberOfStreets	IntersectionGraph.h	/^	unsigned long long getNumberOfStreets() const { return streetProperties.size(); }$/;"	f	class:IntersectionGraph
+getNumberOfStreets	StreetsDatabaseAPI.cpp	/^unsigned long long getNumberOfStreets()$/;"	f
+getPointOfInterest	IntersectionGraph.h	/^	const POIProperties& getPointOfInterest(unsigned i) const { return pointsOfInterest[i]; }$/;"	f	class:IntersectionGraph
+getPointOfInterestName	StreetsDatabaseAPI.cpp	/^string getPointOfInterestName(unsigned pointOfInterestID)$/;"	f
+getPointOfInterestPosition	StreetsDatabaseAPI.cpp	/^LatLon getPointOfInterestPosition(unsigned pointOfInterestID)$/;"	f
+getRefs	Way.h	/^	const std::vector<unsigned long long>& getRefs() const { return ndrefs; }$/;"	f	class:Way
+getRefsRange	Way.h	/^	std::pair<std::vector<unsigned long long>::const_iterator,std::vector<unsigned long long>::const_iterator> getRefsRange() const { return make_pair(ndrefs.begin(),ndrefs.end()); }$/;"	f	class:Way
+getStreet	IntersectionGraph.h	/^	const StreetProperties& 		getStreet(unsigned i) const { return streetProperties[i]; }$/;"	f	class:IntersectionGraph
+getStreetName	StreetsDatabaseAPI.cpp	/^string getStreetName(unsigned streetID)$/;"	f
+getStreetSegment	IntersectionGraph.h	/^	const StreetSegmentProperties& 	getStreetSegment(unsigned i) const { return G[streetSegmentDescriptors[i]]; }$/;"	f	class:IntersectionGraph
+getStreetSegmentCurvePoint	IntersectionGraph.h	/^	LatLon getStreetSegmentCurvePoint(unsigned ssID,unsigned i) const$/;"	f	class:IntersectionGraph
+getStreetSegmentCurvePoint	StreetsDatabaseAPI.cpp	/^LatLon getStreetSegmentCurvePoint(unsigned streetSegmentID,unsigned idx)$/;"	f
+getStreetSegmentCurvePointCount	IntersectionGraph.h	/^	unsigned getStreetSegmentCurvePointCount(unsigned ssID) 	const$/;"	f	class:IntersectionGraph
+getStreetSegmentCurvePointCount	StreetsDatabaseAPI.cpp	/^unsigned getStreetSegmentCurvePointCount(unsigned streetSegmentID)$/;"	f
+getStreetSegmentEnds	IntersectionGraph.h	/^	StreetSegmentEnds getStreetSegmentEnds(unsigned streetSegmentID) const {$/;"	f	class:IntersectionGraph
+getStreetSegmentEnds	StreetsDatabaseAPI.cpp	/^StreetSegmentEnds getStreetSegmentEnds(unsigned streetSegmentID)$/;"	f
+getStreetSegmentOneWay	StreetsDatabaseAPI.cpp	/^bool getStreetSegmentOneWay(unsigned streetSegmentID)$/;"	f
+getStreetSegmentSpeedLimit	IntersectionGraph.h	/^	double getStreetSegmentSpeedLimit(unsigned i) const { return G[streetSegmentDescriptors[i]].speedLimit; }$/;"	f	class:IntersectionGraph
+getStreetSegmentSpeedLimit	StreetsDatabaseAPI.cpp	/^double getStreetSegmentSpeedLimit(unsigned streetSegmentID)$/;"	f
+getStreetSegmentStreetID	StreetsDatabaseAPI.cpp	/^unsigned getStreetSegmentStreetID(unsigned streetSegmentID)$/;"	f
+getStreetSegmentsIncidentOnIntersection	IntersectionGraph.cpp	/^set<unsigned> IntersectionGraph::getStreetSegmentsIncidentOnIntersection(unsigned i) const$/;"	f	class:IntersectionGraph
+getStreetsIncidentOnIntersection	IntersectionGraph.cpp	/^set<unsigned> IntersectionGraph::getStreetsIncidentOnIntersection(unsigned i) const$/;"	f	class:IntersectionGraph
+getTag	OSMEntity.h	/^	std::string getTag(const std::string& k) const {$/;"	f	class:OSMEntity
+getTags	OSMEntity.h	/^	const std::map<std::string,std::string>& getTags() const { return tags; }$/;"	f	class:OSMEntity
+getWayAttributeKeys	OSMDatabase.h	/^	std::vector<std::string> getWayAttributeKeys() const {$/;"	f	class:OSMDatabase
+goal	IntersectionGraph.h	/^	Vertex goal;$/;"	m	class:astar_visitor_goal
+hasTag	OSMEntity.h	/^	bool hasTag(const std::string& s) const { return tags.find(s) != tags.end(); }$/;"	f	class:OSMEntity
+id	OSMEntity.h	/^	unsigned long long id;$/;"	m	class:OSMEntity
+incidentStreetSegments	StreetsDatabaseAPI.cpp	/^vector<unsigned> incidentStreetSegments;$/;"	v
+intersectionID_last	StreetsDatabaseAPI.cpp	/^unsigned intersectionID_last=-1;$/;"	v
+isHighway	OSMDatabase.h	/^	static bool isHighway(const Way& w){ return w.hasTag("highway"); }$/;"	f	class:OSMDatabase
+is_closed	Way.h	/^	bool is_closed() const { return ndrefs.front() == ndrefs.back(); }$/;"	f	class:Way
+iseq	IntersectionGraph.h	/^	unsigned iseq=0;						\/\/ intersection sequence number (for when a given name is not distinct)$/;"	m	struct:IntersectionProperties
+lat	LatLon.h	/^    double lat=NAN;$/;"	m	struct:LatLon
+lat	Node.h	/^	double lat,lon;$/;"	m	class:Node
+length	IntersectionGraph.h	/^	double length=0;$/;"	m	struct:__anon1
+load	IntersectionGraph.h	/^	template<class Archive>void load(Archive& ar,const unsigned version){$/;"	f	class:IntersectionGraph
+loadStreetDatabaseBIN	StreetsDatabaseAPI.cpp	/^bool loadStreetDatabaseBIN(const std::string& fn)$/;"	f
+lon	LatLon.h	/^    double lon=NAN;$/;"	m	struct:LatLon
+lon	Node.h	/^	double lat,lon;$/;"	m	class:Node
+mapWays	OSMDatabase.cpp	/^vector<Way> OSMDatabase::mapWays(const map<unsigned long long,unsigned>& nodes_map_) const$/;"	f	class:OSMDatabase
+merge_poly_segments	IntersectionGraph.cpp	/^std::vector<LatLon> merge_poly_segments(const std::vector<std::vector<std::pair<unsigned long long,LatLon>>>& outer)$/;"	f
+name	IntersectionGraph.h	/^	string name;$/;"	m	struct:StreetProperties
+name	IntersectionGraph.h	/^	string name="";$/;"	m	struct:POIProperties
+ndrefs	Relation.h	/^	vector<pair<unsigned long long,string>> ndrefs;$/;"	m	class:Relation
+ndrefs	Way.h	/^	std::vector<unsigned long long> ndrefs;		\/\/\/ SHOULD BE PRIVATE!!$/;"	m	class:Way
+nodes	OSMDatabase.h	/^	std::vector<Node> nodes;$/;"	m	class:OSMDatabase
+nodes_map	IntersectionGraph.h	/^	map<unsigned long long,Graph::vertex_descriptor> nodes_map;$/;"	m	class:IntersectionGraph
+nodes_map	OSMDatabase.h	/^	std::map<unsigned long long,unsigned> nodes_map;$/;"	m	class:OSMDatabase
+oneway	IntersectionGraph.h	/^	bool oneway=false;$/;"	m	struct:__anon1
+operator ()	IntersectionGraph.h	/^		CostType operator()(Vertex v){$/;"	f	class:IntersectionGraph::distance_heuristic
+operator ()	IntersectionGraph.h	/^		bool operator()(const Node& n) const {$/;"	f	class:IntersectionGraph::POIFilterByAttributes
+operator ()	OSMDatabase.h	/^	template<typename... Args>result_type operator()(Args...){ return val; }$/;"	f	class:ConstFn
+operator <<	Node.cpp	/^std::ostream& operator<<(std::ostream& os,const Node& n)$/;"	f
+operator <<	Relation.cpp	/^ostream& operator<<(ostream& os,const Relation& r)$/;"	f
+operator <<	Way.cpp	/^ostream& operator<<(ostream& os,const Way& w)$/;"	f
+osmNodeID	IntersectionGraph.h	/^	unsigned long long osmNodeID=0;$/;"	m	struct:IntersectionProperties
+osmNodeID	IntersectionGraph.h	/^	unsigned long long osmNodeID=0;$/;"	m	struct:POIProperties
+osmWayID	IntersectionGraph.h	/^	unsigned long long osmWayID;$/;"	m	struct:StreetProperties
+pointsOfInterest	IntersectionGraph.h	/^	vector<POIProperties> pointsOfInterest;$/;"	m	class:IntersectionGraph
+pos	IntersectionGraph.h	/^		LatLon pos={0,0};$/;"	m	class:IntersectionGraph::distance_heuristic
+pos	IntersectionGraph.h	/^	LatLon pos;$/;"	m	struct:POIProperties
+pos	IntersectionGraph.h	/^	LatLon pos={0,0};$/;"	m	struct:IntersectionProperties
+relations	OSMDatabase.h	/^	std::vector<Relation> relations;$/;"	m	class:OSMDatabase
+relrefs	Relation.h	/^	vector<pair<unsigned long long,string>> relrefs;$/;"	m	class:Relation
+replaceTags	OSMEntity.h	/^	void replaceTags(const std::map<std::string,std::string>& tags_){ tags=tags_; }$/;"	f	class:OSMEntity
+result_type	OSMDatabase.h	/^	typedef Result result_type;$/;"	t	class:ConstFn
+save	IntersectionGraph.h	/^    template<class Archive>void save(Archive& ar,const unsigned version) const {$/;"	f	class:IntersectionGraph
+serialize	IntersectionGraph.h	/^	template<class Archive>void serialize(Archive& ar,const unsigned version){$/;"	f	struct:POIProperties
+serialize	IntersectionGraph.h	/^    template<class Archive>void serialize(Archive& ar,const unsigned version){$/;"	f	struct:IntersectionProperties
+serialize	IntersectionGraph.h	/^    template<class Archive>void serialize(Archive& ar,const unsigned version){$/;"	f	struct:StreetProperties
+serialize	IntersectionGraph.h	/^    template<class Archive>void serialize(Archive& ar,const unsigned version){$/;"	f	struct:__anon1
+serialize	LatLon.h	/^    template<class Archive>void serialize(Archive& ar,const unsigned version){$/;"	f	struct:LatLon
+serialize	Node.h	/^	template<class Archive>void serialize(Archive& ar,unsigned int version){ OSMEntity::serialize(ar,version); ar & lat & lon; }$/;"	f	class:Node
+serialize	OSMDatabase.h	/^	template<class Archive>void serialize(Archive& ar,const unsigned int version)$/;"	f	class:OSMDatabase
+serialize	OSMEntity.h	/^	template<class Archive>void serialize(Archive& ar,unsigned int version){ ar & id & tags; }$/;"	f	class:OSMEntity
+serialize	Relation.h	/^	template<class Archive>void serialize(Archive& ar,unsigned int version){$/;"	f	class:Relation
+serialize	Way.h	/^	template<class Archive>void serialize(Archive& ar,const unsigned int ver)$/;"	f	class:NaturalFeature
+serialize	Way.h	/^	template<class Archive>void serialize(Archive& ar,unsigned int version){$/;"	f	class:Way
+setTag	OSMEntity.h	/^	void setTag(const std::string& k,const std::string& v){ tags[k]=v; }$/;"	f	class:OSMEntity
+speedLimit	IntersectionGraph.h	/^	double speedLimit=0;$/;"	m	struct:__anon1
+streetID	IntersectionGraph.h	/^	unsigned streetID=0;$/;"	m	struct:__anon1
+streetSegmentCurvePoints	IntersectionGraph.h	/^	vector<LatLon> 		streetSegmentCurvePoints;$/;"	m	class:IntersectionGraph
+streetSegmentDescriptors	IntersectionGraph.h	/^	vector<Graph::edge_descriptor> streetSegmentDescriptors;$/;"	m	class:IntersectionGraph
+streetSegmentID	IntersectionGraph.h	/^	unsigned streetSegmentID=0;	\/\/ NOTE: not serialized, must be re-derived$/;"	m	struct:__anon1
+tag_const_iterator	OSMEntity.h	/^	typedef std::map<std::string,std::string>::const_iterator tag_const_iterator;$/;"	t	class:OSMEntity
+tags	IntersectionGraph.h	/^		vector<string> tags;$/;"	m	class:IntersectionGraph::POIFilterByAttributes
+tags	OSMEntity.h	/^	std::map<std::string,std::string> tags;$/;"	m	class:OSMEntity
+tags_begin	OSMEntity.h	/^	tag_const_iterator tags_begin() const { return tags.begin(); }$/;"	f	class:OSMEntity
+tags_end	OSMEntity.h	/^	tag_const_iterator tags_end()   const { return tags.end(); }$/;"	f	class:OSMEntity
+take_first	IntersectionGraph.cpp	/^template<typename A,typename B>const B& take_first (const std::pair<A,B>& p){ return p.first; }$/;"	f
+take_second	IntersectionGraph.cpp	/^template<typename A,typename B>const B& take_second(const std::pair<A,B>& p){ return p.second; }$/;"	f
+to	StreetSegmentEnds.h	/^    unsigned long to;$/;"	m	struct:StreetSegmentEnds
+val	OSMDatabase.h	/^	Result val;$/;"	m	class:ConstFn
+wayrefs	Relation.h	/^	vector<pair<unsigned long long,string>> wayrefs;$/;"	m	class:Relation
+ways	OSMDatabase.h	/^	std::vector<Way>  ways;$/;"	m	class:OSMDatabase
+ways_map	OSMDatabase.h	/^	std::map<unsigned long long,unsigned> ways_map;$/;"	m	class:OSMDatabase
+ways_mapped	OSMDatabase.h	/^	std::vector<Way> ways_mapped;$/;"	m	class:OSMDatabase
+~OSMEntity	OSMEntity.h	/^	virtual ~OSMEntity(){}$/;"	f	class:OSMEntity
